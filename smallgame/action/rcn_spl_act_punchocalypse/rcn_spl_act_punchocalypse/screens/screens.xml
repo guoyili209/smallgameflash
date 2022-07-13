@@ -1,0 +1,293 @@
+<?xml version="1.0" ?>
+<xmlData version="1.0">
+<gui id="main_menu" clip="mcGuiScreensMainmenu" >
+    <item id="mcBg" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_mainmenu_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcCharacter01" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_mainmenu_character01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiMainmenuLogo" type="clipExt" ox="-265" oy="-113" sx="1" sy="1" rot="0" alpha="1" string="" link="logo" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnPlay" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_type_1" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTextPlay" type="text" ox="0" oy="-10" sx="1" sy="1" rot="0" alpha="1" string="TXT_MM_PLAY" link="gui_txt_buttons" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTitle" type="text" ox="0" oy="40" sx="1" sy="1" rot="0" alpha="1" string="TXT_MM_TITLE" link="gui_txt_title_mainmenu" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiCommonAnimation" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="guiCommonAnimation" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="tranIn" type="" ox="" oy="" sx="" sy="" rot="" alpha="" string="" link="mcGuiTransitionAnimationin" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="tranOut" type="" ox="" oy="" sx="" sy="" rot="" alpha="" string="" link="mcGuiTransitionAnimationout" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="erase" clip="mcGuiPopupsQuit" >
+    <item id="mcGuiBackground" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupTitleBase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_titlebase" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSupport" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_base01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSplash01" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_splash01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSplash02" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_splash02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnYes" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_ok" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnNo" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_cancel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_ERASE_TITLE" link="gui_txt_titlescreens02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="metamap" clip="mcGuiScreensMetamap" >
+    <item id="mcBg" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnTrophies" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophies" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnReset" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_cancel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnWeb" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_nomicom" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiLevel1" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_level_1" disableLink="gui_screen_disabled_level_1" selectedLink="gui_screen_selected_level_1" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiLevel2" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_level_2" disableLink="gui_screen_disabled_level_2" selectedLink="gui_screen_selected_level_2" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiLevel3" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_level_3" disableLink="gui_screen_disabled_level_3" selectedLink="gui_screen_selected_level_3" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiLevel4" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_level_4" disableLink="gui_screen_disabled_level_4" selectedLink="gui_screen_selected_level_4" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiLevel5" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_ninjatrainning" disableLink="gui_screen_disabled_ninjatrainning" selectedLink="gui_screen_selected_ninjatrainning" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcNumberLevel1" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_META_LV_1" link="gui_txt_info_numblevel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcNumberLevel2" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_META_LV_2" link="gui_txt_info_numblevel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcNumberLevel3" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_META_LV_3" link="gui_txt_info_numblevel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcNumberLevel4" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_META_LV_4" link="gui_txt_info_numblevel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcNumberLevel5" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_META_LV_5" link="gui_txt_info_numblevel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTitleIcon" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_titleicon_levelselection" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_META_TITLE" link="gui_txt_titlescreens" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="cutscene" clip="mcGuiScreensCutscene" >
+    <item id="mcGuiBackground" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_cutscene_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiCutsceneImages" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_cutscene_image01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnSkip" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_cancel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnNext" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_next" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnBack" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_back" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoCutscene" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_CUTSCENE_INFO_1" link="gui_txt_infocutscene" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoCutscene2" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_CUTSCENE_INFO_1" link="gui_txt_infocutscene" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="pause" clip="mcGuiPopupsPause" >
+    <item id="mcGuiBackground" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupTitleBase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_titlebase" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_PAUSE_TITLE" link="gui_txt_titlescreens02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSplash01" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_splash01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSplash02" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_splash02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnResume" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_next" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnHelp" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_help" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnQuit" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_quit" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnInventory" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_inventory" disableLink="gui_buttons_inventory_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnMetamap" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_metamap" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSupport" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_base01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnSound" type="on_off" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="" disableLink="" selectedLink="" soonLink="" onLink="gui_buttons_sound_on" offLink="gui_buttons_sound_off" selector="" />
+</gui>
+<gui id="hud" clip="mcGuiHudGame" >
+    <item id="mcBarHP" type="progress" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_hud_bar_hp" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcBarMP" type="progress" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_hud_bar_mp" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcBarMP2" type="progress" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_hud_bar_mp2" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcBtnPause" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_pause" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiHudInventorybase" type="clip" ox="-130" oy="-2" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_hud_inventory_base" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTextLifes" type="text" ox="-8" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HUD_LIVES" link="gui_txt_hud_number" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiHudBase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_hud_base" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcWeaponSquare1" type="4States" ox="-40" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="mc_gui_weapon_a" disableLink="mc_gui_weapon_a_off" selectedLink="mc_gui_weapon_a_select" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcWeaponSquare2" type="4States" ox="-60" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="mc_gui_weapon_b" disableLink="mc_gui_weapon_b_off" selectedLink="mc_gui_weapon_b_select" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcWeaponSquare3" type="4States" ox="-75" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="mc_gui_weapon_c" disableLink="mc_gui_weapon_c_off" selectedLink="mc_gui_weapon_c_select" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcWeaponSquare4" type="4States" ox="-90" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="mc_gui_weapon_d" disableLink="mc_gui_weapon_d_off" selectedLink="mc_gui_weapon_d_select" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcWeaponSquare5" type="4States" ox="-95" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="mc_gui_weapon_e" disableLink="mc_gui_weapon_e_off" selectedLink="mc_gui_weapon_e_select" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcWeaponSquare6" type="4States" ox="-115" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="mc_gui_weapon_f" disableLink="mc_gui_weapon_f_off" selectedLink="mc_gui_weapon_f_select" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcNumbScore" type="text" ox="-30" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HUD_LIVES" link="gui_txt_hud_numbscore" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcBasewave" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_hud_wave_base" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfowave" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HUD_WAVES" link="gui_txt_infowave" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcNumbwave" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HUD_WAVES_NUM" link="gui_txt_numbCombo" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcExtralife" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_fx_extralife" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcSelectArrow" type="clip" ox="-75" oy="-10" sx="-1" sy="1" rot="0" alpha="1" string="" link="gui_hud_inventory_arrow" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcSelectArrow2" type="clip" ox="-75" oy="-10" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_hud_inventory_arrow" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcBossBarHP" type="progress" ox="10" oy="-15" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_hud_bossbar_hp" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiHudBossBase" type="clip" ox="10" oy="-15" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_hud_boss_base" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcWeaponId" type="clip" ox="6.5" oy="-8" sx="1" sy="1" rot="0" alpha="1" string="" link="mc_gui_weapon_a" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcRagemode" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_hud_coldragemode_head_01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcCurrentBall" type="clip" ox="-7" oy="-13" sx="1" sy="1" rot="0" alpha="1" string="" link="mc_gui_weapon_a" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcBombBase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_bomb_base" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcHowardcall" type="clip" ox="-15" oy="-25" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_hud_howard_call_appear" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="inventory" clip="mcGuiScreensInventory" >
+    <item id="mcBg" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTitleIcon" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_titleicon_inventory" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_INVENTORY_TITLE" link="gui_txt_titlescreens" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnBack" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_back" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnTrophies" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_next" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnNomicom" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_nomicom" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiInventoryZoom" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="guiInventory01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoInventory" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_INVENTORY_INFO_1" link="gui_txt_infoinventory" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiInventory01" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_inventory_1" disableLink="gui_screen_disabled_inventory_1" selectedLink="gui_screen_selected_inventory_1" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiInventory02" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_inventory_2" disableLink="gui_screen_disabled_inventory_2" selectedLink="gui_screen_selected_inventory_2" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiInventory03" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_inventory_3" disableLink="gui_screen_disabled_inventory_3" selectedLink="gui_screen_selected_inventory_3" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiInventory04" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_inventory_4" disableLink="gui_screen_disabled_inventory_4" selectedLink="gui_screen_selected_inventory_4" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiInventory05" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_inventory_5" disableLink="gui_screen_disabled_inventory_5" selectedLink="gui_screen_selected_inventory_5" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiInventory06" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_inventory_6" disableLink="gui_screen_disabled_inventory_6" selectedLink="gui_screen_selected_inventory_6" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="help" clip="mcGuiScreensHelp01" >
+    <item id="mcBg" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnNext" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_next" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnBack" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_back" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiHelpImage" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_help_image01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoHelp02" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HELP_INFO_B" link="gui_txt_infohelp" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoHelp01" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HELP_INFO_A" link="gui_txt_infohelp" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTitleIcon" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_titleicon_instructions" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HELP_TITLE" link="gui_txt_titlescreens" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="help2" clip="mcGuiScreensHelp02" >
+    <item id="mcBg" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnBack" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_back" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnNext" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_next" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiHelpImage" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_help_image02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTitleIcon" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_titleicon_instructions" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoHelp01" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HELP_INFO_C" link="gui_txt_infohelp" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HELP_TITLE_2" link="gui_txt_titlescreens" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="help3" clip="mcGuiScreensHelp03" >
+    <item id="mcBg" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnBack" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_back" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnNext" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_next" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiHelpImage" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_help_image03" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTitleIcon" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_titleicon_instructions" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoHelp01" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HELP_INFO_D" link="gui_txt_infohelp" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HELP_TITLE_3" link="gui_txt_titlescreens" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="help4" clip="mcGuiScreensHelp04" >
+    <item id="mcBg" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnBack" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_back" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnNext" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_next" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiHelpImage" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_help_image04" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTitleIcon" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_titleicon_instructions" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoHelp01" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HELP_INFO_E" link="gui_txt_infohelp" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_HELP_TITLE_4" link="gui_txt_titlescreens" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="tryAgain" clip="mcGuiScreensTryagain" >
+    <item id="mcBg" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_tryagain_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupTitleBase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_titlebase" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSupport" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_base02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTryagainCharacter" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_tryagain_character" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnTryagain" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_tryagain" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnNinjatraning" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_ninjatraining" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnMainmenu" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_quit" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_TRY_AGAIN_TITLE" link="gui_txt_titlescreens02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="scorecard" clip="mcGuiScreensEndlevel" >
+    <item id="mcGuiBackground" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_endlevel_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiSupportTitle" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_titlebase" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnTryagain" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_tryagain" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnNext" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_next" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSupport" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_base03" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoEndlevel01" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_SCORECARD_INFO_1" link="gui_txt_info_infoendlevel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoEndlevel02" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_SCORECARD_INFO_2" link="gui_txt_info_numbendlevel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoEndlevel03" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_SCORECARD_INFO_3" link="gui_txt_info_infoendlevel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoEndlevel04" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_SCORECARD_INFO_4" link="gui_txt_info_numbendlevel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoSkills" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_SCORECARD_REMEMBER" link="gui_txt_info_infoskills" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_SCORECARD_TITLE" link="gui_txt_titlescreens02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiCharacter" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_endlevel_character" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoEndlevel09" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_SCORECARD_INFO_1" link="gui_txt_infoendlevel04" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiEndlevelBar01" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_scree_endlevel_bar" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiEndlevelBar02" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_scree_endlevel_bar" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiEndlevelBar03" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_scree_endlevel_bar" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiEndlevelBar04" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_scree_endlevel_bar" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="trophies" clip="mcGuiScreensTrophies" >
+    <item id="mcBg" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_trophies_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnWeb" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_back" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTrophy1" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophy_01" disableLink="gui_screen_trophy_01_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTrophy2" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophy_02" disableLink="gui_screen_trophy_02_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTrophy3" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophy_03" disableLink="gui_screen_trophy_03_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTrophy4" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophy_04" disableLink="gui_screen_trophy_04_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTrophy5" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophy_05" disableLink="gui_screen_trophy_05_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTrophy6" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophy_06" disableLink="gui_screen_trophy_06_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTrophy7" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophy_07" disableLink="gui_screen_trophy_07_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTrophy8" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophy_08" disableLink="gui_screen_trophy_08_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTrophy9" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophy_09" disableLink="gui_screen_trophy_09_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTrophy10" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophy_10" disableLink="gui_screen_trophy_10_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTrophy11" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophy_11" disableLink="gui_screen_trophy_11_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTrophy12" type="4States" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_trophy_12" disableLink="gui_screen_trophy_12_off" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_TROPH_TITLE" link="gui_txt_titlescreens" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="endgame" clip="mcGuiScreensEndgame" >
+    <item id="mcBg" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_endgame_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiTitleBase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_titlebase" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiEndgameCharacter" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screen_endgame_character" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnTryagain" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_tryagain" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnMainmenu" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_quit" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcNumbTotalScore" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_END_GAME_SCORE_NUM" link="gui_txt_numbendgame" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoTotalScore" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_END_GAME_SCORE" link="gui_txt_infoendgame" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_END_GAME_TITLE" link="gui_txt_titlescreens02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="start" clip="mcGuiMessagesStart" >
+    <item id="mcInfoMessage01" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_MESSAGE_START" link="gui_txt_infomessage01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcDoodleStart" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_doodle_start" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="warnning" clip="mcGuiMessagesWarning" >
+    <item id="mcInfoMessage01" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_MESSAGE_WARNING" link="gui_txt_infomessage01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcDoodleWarning" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_doodle_warning" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="warnningStop" clip="mcGuiMessagesWarning" >
+    <item id="mcInfoMessage01" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_MESSAGE_WARNING_STOP" link="gui_txt_infomessage01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcDoodleWarning" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_doodle_warning" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="warnningBoss" clip="mcGuiMessagesWarning" >
+    <item id="mcInfoMessage01" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_MESSAGE_WARNING_BOSS" link="gui_txt_infomessage01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcDoodleWarning" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_doodle_warning" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="trainingcompleted" clip="mcGuiMessagesLevelcompleted" >
+    <item id="mcInfoMessage01" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_MESSAGE_TRAINING_COMPLETE" link="gui_txt_infomessage01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcDoodleCompleted" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_doodle_start" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="levelcompleted" clip="mcGuiMessagesLevelcompleted" >
+    <item id="mcInfoMessage01" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_MESSAGE_LVL_COMPLETE" link="gui_txt_infomessage01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcDoodleCompleted" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_doodle_start" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="combox" clip="mcGuiMessagesCombo" >
+    <item id="mcInfoCombo" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_MESSAGE_COMBO_1" link="gui_txt_infomessage02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcNumbCombo" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_MESSAGE_COMBO_2" link="gui_txt_numbCombo" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupCombobase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_message_combo_base" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="quit" clip="mcGuiPopupsQuit" >
+    <item id="mcGuiBackground" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupTitleBase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_titlebase" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSupport" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_base01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSplash01" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_splash01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSplash02" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_splash02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnYes" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_ok" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnNo" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_cancel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_QUIT_TITLE" link="gui_txt_titlescreens02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="quitScorecard" clip="mcGuiPopupsQuit" >
+    <item id="mcGuiBackground" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupTitleBase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_titlebase" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSupport" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_base01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSplash01" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_splash01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSplash02" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_splash02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnYes" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_ok" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnNo" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_cancel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_QUITSCORECARD_TITLE" link="gui_txt_titlescreens02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="gotoSurvival" clip="mcGuiPopupsQuit" >
+    <item id="mcGuiBackground" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupTitleBase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_screens_common_titlebase" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSupport" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_base01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSplash01" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_splash01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSplash02" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_splash02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnYes" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_ok" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnNo" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_cancel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_GOTOSURVIVAL_TITLE" link="gui_txt_titlescreens02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="newTrophy" clip="mcGuiPopupsNewtrophy" >
+    <item id="mcGuiPopupSupport" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_trophies_base02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupTrophy" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_newtrophy_01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoPopupTrophy" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_QUIT_TITLE" link="gui_txt_infodialogue" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="skills" clip="mcGuiPopupsSkills" >
+    <item id="mcTittle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_LEVEL_UP_TITLE" link="gui_txt_titlescreens02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBackground" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSkillsBase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_skills_base" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupSkillsContent" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_skills_content01" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnCancel" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_cancel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="comboBonus" clip="mcGuiMessagesCombo" >
+    <item id="mcInfoCombo" type="text" ox="0" oy="80" sx="1" sy="1" rot="0" alpha="1" string="TXT_MESSAGE_COMBO_BONUS_1" link="gui_txt_infomessage02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcNumbCombo" type="text" ox="0" oy="80" sx="1" sy="1" rot="0" alpha="1" string="TXT_MESSAGE_COMBO_2" link="gui_txt_numbCombo" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupCombobase" type="clip" ox="0" oy="80" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_message_combo_base" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="popupinventory" clip="mcGuiPopupInventory" >
+    <item id="mcGuiPopupTitleBase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_inventory_base" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcPopupInventoryBomb" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_inventory_bomb_02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcTitle" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_FIRE_BOMB_TITLE" link="gui_txt_titlescreens02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcInfoPopupInventory" type="text" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="TXT_FIRE_BOMB_TIP" link="gui_txt_infopopupinventory" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnClose" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_cancel02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnInventory" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_inventory02" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+<gui id="Rage Mode" clip="mcGuiPopupsRageMode" >
+    <item id="mcGuiBackground" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_common_background" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupRagemodeBase" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_ragemode_base" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiPopupRageModeContent" type="clip" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_popups_ragemode_content" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+    <item id="mcGuiBtnCancel" type="button" ox="0" oy="0" sx="1" sy="1" rot="0" alpha="1" string="" link="gui_buttons_cancel" disableLink="" selectedLink="" soonLink="" onLink="" offLink="" selector="" />
+</gui>
+</xmlData>

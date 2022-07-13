@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <group id="media1">
+        <url id="gui_1"    size="1567304" type="swf" path="rcn_spl_act_punchocalypse_gui_1.swf"/>
+    </group>
+    
+    <group id="level_1">
+        <url id="player"   size="409427" type="swf" path="rcn_spl_act_punchocalypse_player.swf"/>
+        <url id="gameplay_1" size="409960" type="swf" path="rcn_spl_act_punchocalypse_gameplay_1.swf"/>
+        <url id="enemies_1"  size="218959" type="swf" path="rcn_spl_act_punchocalypse_enemies_1.swf"/>
+        <url id="world_1"  size="415143" type="swf" path="rcn_spl_act_punchocalypse_world1.swf"/>
+    </group>
+    
+    <group id="level_2">
+        <url id="sound_2"  size="286277" type="swf" path="rcn_spl_act_punchocalypse_sounds_2.swf"/>
+        <url id="gui_2"    size="449132" type="swf" path="rcn_spl_act_punchocalypse_gui_2.swf"/>
+        <url id="player"   size="409427" type="swf" path="rcn_spl_act_punchocalypse_player.swf"/>
+        <url id="gameplay_1" size="409896" type="swf" path="rcn_spl_act_punchocalypse_gameplay_1.swf"/>
+        <url id="enemies_1"  size="218959" type="swf" path="rcn_spl_act_punchocalypse_enemies_1.swf"/>
+        <url id="gameplay_2" size="43136" type="swf" path="rcn_spl_act_punchocalypse_gameplay_2.swf"/>
+        <url id="enemies_2"  size="684877" type="swf" path="rcn_spl_act_punchocalypse_enemies_2.swf"/>
+        <url id="world_2"  size="337302" type="swf" path="rcn_spl_act_punchocalypse_world2.swf"/>
+    </group>
+    
+    <group id="level_3">
+        <url id="sound_2"  size="286277" type="swf" path="rcn_spl_act_punchocalypse_sounds_2.swf"/>
+        <url id="gui_2"    size="550234" type="swf" path="rcn_spl_act_punchocalypse_gui_2.swf"/>
+        <url id="player"   size="409427" type="swf" path="rcn_spl_act_punchocalypse_player.swf"/>
+        <url id="gameplay_1" size="409896" type="swf" path="rcn_spl_act_punchocalypse_gameplay_1.swf"/>
+        <url id="enemies_1"  size="218959" type="swf" path="rcn_spl_act_punchocalypse_enemies_1.swf"/>
+        <url id="gameplay_2" size="43136" type="swf" path="rcn_spl_act_punchocalypse_gameplay_2.swf"/>
+        <url id="enemies_2"  size="684877" type="swf" path="rcn_spl_act_punchocalypse_enemies_2.swf"/>
+        <url id="world_3"  size="289934" type="swf" path="rcn_spl_act_punchocalypse_world3.swf"/>
+    </group>
+    
+    <group id="level_4">
+        <url id="sound_2"  size="286277" type="swf" path="rcn_spl_act_punchocalypse_sounds_2.swf"/>
+        <url id="gui_2"    size="550234" type="swf" path="rcn_spl_act_punchocalypse_gui_2.swf"/>
+        <url id="player"   size="409427" type="swf" path="rcn_spl_act_punchocalypse_player.swf"/>
+        <url id="gameplay_1" size="409896" type="swf" path="rcn_spl_act_punchocalypse_gameplay_1.swf"/>
+        <url id="enemies_1"  size="218959" type="swf" path="rcn_spl_act_punchocalypse_enemies_1.swf"/>
+        <url id="gameplay_2" size="43136" type="swf" path="rcn_spl_act_punchocalypse_gameplay_2.swf"/>
+        <url id="enemies_2"  size="684877" type="swf" path="rcn_spl_act_punchocalypse_enemies_2.swf"/>
+        <url id="world_4"  size="240401" type="swf" path="rcn_spl_act_punchocalypse_world4.swf"/>
+    </group>
+    
+    <group id="level_5">
+        <url id="sound_2"  size="286277" type="swf" path="rcn_spl_act_punchocalypse_sounds_2.swf"/>
+        <url id="gui_2"    size="550234" type="swf" path="rcn_spl_act_punchocalypse_gui_2.swf"/>
+        <url id="player"   size="409427" type="swf" path="rcn_spl_act_punchocalypse_player.swf"/>
+        <url id="gameplay_1" size="409896" type="swf" path="rcn_spl_act_punchocalypse_gameplay_1.swf"/>
+        <url id="enemies_1"  size="218959" type="swf" path="rcn_spl_act_punchocalypse_enemies_1.swf"/>
+        <url id="gameplay_2" size="43136" type="swf" path="rcn_spl_act_punchocalypse_gameplay_2.swf"/>
+        <url id="enemies_2"  size="684877" type="swf" path="rcn_spl_act_punchocalypse_enemies_2.swf"/>
+        <url id="world_5"  size="291172" type="swf" path="rcn_spl_act_punchocalypse_world5.swf"/>
+    </group>
+</data>

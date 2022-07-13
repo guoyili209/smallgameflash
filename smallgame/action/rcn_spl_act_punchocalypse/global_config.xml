@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <pathBase>rcn_spl_act_punchocalypse/</pathBase>
+    <urls>urls.xml</urls>
+    <urlsPreviewGUI>urlsPreviewGUI.xml</urlsPreviewGUI>
+    <initBytes>1268041</initBytes>
+    <useConsole>1</useConsole>
+    <traceLog>1</traceLog>
+    <appWidth>750</appWidth>
+    <appHeight>500</appHeight>
+    <frameRate>30</frameRate>
+    <quality>high</quality>
+    <appName>rcn_spl_act_punchocalypse</appName>
+    <strings>strings/strings.xml</strings>
+    <loaderURL>rcn_spl_act_punchocalypse_loader.swf</loaderURL>
+    <console>rcn_spl_act_punchocalypse_console.swf</console>
+    <enableVO>1</enableVO>
+    <miniPlayerSpeed>0.1</miniPlayerSpeed>
+</data>

@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<data>
+  <url>
+    <url value="http://disney.go.com/disneyxd/games/cds/enter-the-ninjanomicon-2013877" />
+  </url>
+
+  <player>
+    <lifes value="999" />
+    <health value="999999" />
+    <magicPower value="999999" />
+    <dashDistance value="350" />
+    <dashSpeed value="0.7" />
+    <timeHitTint value="1500" />
+    <tryCatchTime value="200" />
+    <climbSlideFall value="0.15" />
+    <climbSlide value="0.025" />
+    <catchComboTotal value="4" />
+    <comboTotal value="4" />
+    <rageTime value="15000" />
+    <speedRefillMP value="0.1" />
+    <frozenHits value="5" />
+    <timeShock value="1000" />
+    <rageActivationTime value="1500" />
+    <comboIntervalMax value="2000" />
+    <standGrabMax value="3000" />
+    <useComboCheat value="1" />
+    <healthMultiplier1 value="1.25" />
+    <healthMultiplier2 value="1.5" />
+    <damageMultiplier1 value="1.25" />
+    <damageMultiplier2 value="1.5" />
+  </player>
+
+  <coldRage>
+    <DamageMultiplier value="1.5" />
+    <WalkSpeedMultiplier value="1.2" />
+    <FrozeMultiplier value="2" />
+  </coldRage>
+
+  <airFist>
+    <speed value="0.75" />
+    <distance value="600" />
+    <damage value="10" />
+  </airFist>
+
+  <score>
+    <hit value="10" />
+    <coin value="100" />
+    <obstacle value="200" />
+    <comboBonusThreshold value="12" />
+    <pointsForLife value="20000" />
+    <pointsForLifeIncrement value="20000" />
+  </score>
+
+  <damage>
+    <normal value="10" />
+    <air value="5" />
+    <grab value="15" />
+    <tthrow value="10" />
+    <fall value="15" />
+    <uppercut value="15" />
+    <grabUp value="17" />
+    <sAir value="20" />
+    <sUppercut value="20" />
+    <sScarf value="23" />
+    <sNunchuck value="28" />
+    <sSlice value="28" />
+    <slide value="1" />
+  </damage>
+
+  <levelUp>
+    <dodgeLevel1waves value="5" />
+    <dodgeLevel2waves value="8" />
+    <dodgeLevel3waves value="12" />
+    <dodgeTime1signal value="500" />
+    <dodgeTime2signal value="1000" />
+    <dodgeSlowFactor value="0.5" />
+    <comboLevel1waves value="4" />
+    <comboLevel2waves value="7" />
+    <comboLevel3waves value="11" />
+    <comboNunchuckRadius value="300" />
+  </levelUp>
+
+  <enemy>
+    <itemHealth value="30" />
+    <itemMana value="40" />
+  </enemy>
+
+  <ninjaStar>
+    <speedX value="0.5" />
+    <range value="250" />
+    <damage value="2" />
+  </ninjaStar>
+
+  <ninjaStarFire>
+    <speedX value="0.5" />
+    <range value="250" />
+    <damage value="50" />
+  </ninjaStarFire>
+
+  <ninjaStarIce>
+    <speedX value="0.5" />
+    <range value="250" />
+    <damage value="50" />
+  </ninjaStarIce>
+
+  <fireBomb>
+    <speedX value="0.5" />
+    <speedY value="-0.5" />
+    <gravity value="0.0015" />
+    <damage value="40" />
+    <mp value="20" />
+  </fireBomb>
+
+  <iceBomb>
+    <speedX value="0.6" />
+    <range value="300" />
+    <damage value="1" />
+    <mp value="25" />
+  </iceBomb>
+
+  <electricBomb>
+    <speedX value="0.6" />
+    <range value="350" />
+    <damage value="1" />
+    <mp value="25" />
+  </electricBomb>
+
+  <smokeBomb>
+    <speedX value="0.6" />
+    <speedY value="0.15" />
+    <range value="150" />
+    <damage value="1" />
+    <mp value="25" />
+    <offSpeedX value="0.35" />
+  </smokeBomb>
+
+  <palletBomb>
+    <speedX value="0.6" />
+    <speedY value="0.15" />
+    <range value="150" />
+    <damage value="1" />
+    <mp value="25" />
+  </palletBomb>
+
+  <bombs>
+    <cooldowmTime value="500" />
+  </bombs>
+
+  <door>
+    <adviceRange value="250" />
+    <adviceTimeAction value="4000" />
+  </door>
+
+</data>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <player>
+        <gravity> 0.0015 </gravity>
+        <elasticity> 0.2 </elasticity>
+        <friction> 0.0098 </friction>
+        <slopeFriction> -0.5 </slopeFriction>
+        <maxVerletUpDisplace> 12 </maxVerletUpDisplace>
+        <maxVerletDownDisplace> 16 </maxVerletDownDisplace>
+        <maxVerletHorizontalDisplace> 350 </maxVerletHorizontalDisplace>
+
+        <debugSpeed> 1.0 </debugSpeed>
+        <walkSpeed> 0.004 </walkSpeed>
+        <airSpeed> 0.0035 </airSpeed>
+        <runFactor> 1.6 </runFactor>
+        <maxSpeedFloor> 17 </maxSpeedFloor>
+        <maxSpeedAir> 9.6 </maxSpeedAir>
+        <maxSpeedAirWallJump> 13 </maxSpeedAirWallJump>
+        <maxSpeedAirFlipJump> 12 </maxSpeedAirFlipJump>
+        <jumpInitSpeed> 1.1 </jumpInitSpeed>
+        <jumpRunInitSpeed> 1.1 </jumpRunInitSpeed>
+        <smallJumpTime> 120 </smallJumpTime>
+        <smallJumpSpeed> 0.8 </smallJumpSpeed>
+        <canRun> 0 </canRun>
+        <doubleJumpStart> 0 </doubleJumpStart>
+        <doubleJumpEnd> 1000 </doubleJumpEnd>
+        <doubleJumpSpeed> 1.16 </doubleJumpSpeed>
+        <jumpDownTime> 200 </jumpDownTime>
+        <canClimb> 1 </canClimb>
+        <climbSpeed> 0.33 </climbSpeed>
+        <climbFactor> 0.5</climbFactor>
+        <climbCornerSpeed> 0.4 </climbCornerSpeed>
+        <climbJumpUp> 1.1 </climbJumpUp>
+        <cmdCross> Z </cmdCross>
+        <cmdCircle> X </cmdCircle>
+
+        <widthPixels>0</widthPixels>
+        <heightPixels>0</heightPixels>
+    </player>
+
+    <game>
+        <respawnX> 8435 </respawnX>
+        <respawnY> 680 </respawnY>
+    </game>
+	
+	<camera>
+		<vMax> 6.5 </vMax> <!-- 6.5 px/ 50 ms = 130 pix/seg -->
+		<firstLimit> 0.3 </firstLimit>
+		<secondLimit> 0.5 </secondLimit>
+	</camera>
+
+    <enemyEngine>
+        <replaceStringAnimations>blue</replaceStringAnimations>
+        <damageMeele> 10 </damageMeele>
+        <damageSpecial> 10 </damageSpecial>
+        <damageBullet> 10 </damageBullet>
+        <healt> 100 </healt>
+        <magic> 100 </magic>
+        <enabledBodyCollision> 100 </enabledBodyCollision>
+        <squashFactor> 0.7 </squashFactor>
+    </enemyEngine>
+</data>
+

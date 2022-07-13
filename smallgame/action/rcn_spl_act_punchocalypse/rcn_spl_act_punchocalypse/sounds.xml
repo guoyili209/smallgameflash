@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <!-- COLLECTIBLES -->
+    <sound linked="snd_rc_1up" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_Achievement" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_coin1" vol="0.3" bg="0" debug="0" />
+    <sound linked="snd_rc_coin2" vol="0.3" bg="0" debug="0" />
+    <sound linked="snd_rc_coin3" vol="0.3" bg="0" debug="0" />
+    <sound linked="snd_rc_Heart" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_bombs_energy" vol="1" bg="0" debug="0" />
+
+    <!-- ENEMIES -->
+    <sound linked="snd_rc_enemies_attack" vol="0.3" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_chameleon_shoot" vol="0.3" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_fire_defeat" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_fire_gethit" vol="0.4" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_fire_presence" vol="0.4" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_gorilla_attack" vol="0.5" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_gorilla_presence" vol="0.1" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_ice_defeat" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_ice_gethit" vol="0.4" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_ice_presence" vol="0.4" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_fire_defeat" vol="1" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_beaver_presence" vol="0" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_beaver_attack" vol="0.2" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_ice_presence" vol="0.4" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_enemy_fall" vol="0.4" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_gorilla_shoot" vol="0.5" bg="0" debug="0" />
+    <sound linked="snd_rc_enemies_flyflap" vol="0.6" bg="0" debug="0" />
+
+    <!-- GUI -->
+    <sound linked="snd_rc_next" vol="0.6" bg="0" debug="0" />
+    <sound linked="snd_rc_Pause" vol="0.6" bg="0" debug="0" />
+    <sound linked="snd_rc_play" vol="0.5" bg="0" debug="0" />
+    <sound linked="snd_rc_Popups" vol="0.8" bg="0" debug="0" />
+    <sound linked="snd_rc_prev" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_Resume" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_Play_over" vol="0.3" bg="0" debug="0" />
+    <sound linked="snd_rc_combo" vol="0.8" bg="0" debug="0" />
+
+    <!-- MUSIC -->
+    <sound linked="music_Gameplay" vol="0.8" bg="1" debug="0" />
+    <sound linked="music_Gameplay2"  vol="0.8" bg="1" debug="0" />
+    <sound linked="RC_Gameplay3_2"  vol="0.6" bg="1" debug="0" />
+    <sound linked="music_Titlecard"  vol="0.2" bg="1" debug="0" />
+    <sound linked="music_TryAgain"  vol="0.2" bg="0" debug="0" />
+    <sound linked="music_WinGame"  vol="0.2" bg="1" debug="0" />
+    <sound linked="music_WinLevel"  vol="0.2" bg="1" debug="0" />
+    <sound linked="music_gameplay"  vol="0.2" bg="1" debug="0" />
+    <sound linked="rc_boss_intro"  vol="0.3" bg="0" debug="0" />
+    <sound linked="rc_boss_fight"  vol="0.3" bg="1" debug="0" />
+
+    <!-- OBJECTS -->
+    <sound linked="snd_rc_breakable_floor" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_checkpoint" vol="0.6" bg="0" debug="0" />
+    <sound linked="snd_rc_FireDoor" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_IceDoor" vol="0.8" bg="0" debug="0" />
+    <sound linked="snd_rc_missiles" vol="0.3" bg="0" debug="0" />
+    <sound linked="snd_rc_pendulum1" vol="0.3" bg="0" debug="0" />
+    <sound linked="snd_rc_pendulum2" vol="0.3" bg="0" debug="0" />
+    <sound linked="snd_rc_platforms_break" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_spikes" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_breakable_floor" vol="1" bg="0" debug="0" />
+    <sound linked="snd_rc_lasers" vol="0.3" bg="0" debug="0" />
+    <sound linked="snd_rc_fireball" vol="0.2" bg="0" debug="0" />
+    <sound linked="snd_rc_warning" vol="0.2" bg="0" debug="0" />
+    <sound linked="snd_rc_lasers_charge" vol="0.5" bg="0" debug="0" />
+    <sound linked="snd_rc_hit_walls" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_complete_popup" vol="1.2" bg="0" debug="0" />
+
+    <!-- PLAYER -->
+    <sound linked="snd_rc_gethit" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_appear" vol="0.2" bg="0" debug="0" />
+    <sound linked="snd_rc_player_attack1" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_attack2" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_attack3" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_attack4" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_ElectricBomb" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_FireBomb" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_hit1" vol="0.4" bg="0" debug="0" />
+    <sound linked="snd_rc_player_hit2" vol="0.4" bg="0" debug="0" />
+    <sound linked="snd_rc_player_hit3" vol="0.4" bg="0" debug="0" />
+    <sound linked="snd_rc_player_hit4" vol="0.4" bg="0" debug="0" />
+    <sound linked="snd_rc_player_IceBomb" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_jump" vol="0.9" bg="0" debug="0" />
+    <sound linked="snd_rc_player_land" vol="0.2" bg="0" debug="0" />
+    <sound linked="snd_rc_player_scarf" vol="0.8" bg="0" debug="0" />
+    <sound linked="snd_rc_player_shuriken" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_shurikenthrow" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_SmokeBomb" vol="0.8" bg="0" debug="0" />
+    <sound linked="snd_rc_player_TripBomb" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_weaponselection" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_slide" vol="0.5" bg="0" debug="0" />
+    <sound linked="snd_rc_player_throw_bombs" vol="1" bg="0" debug="0" />
+    <sound linked="snd_rc_player_die" vol="1.1" bg="0" debug="0" />
+    <sound linked="snd_rc_player_air" vol="0.7" bg="0" debug="0" />
+    <sound linked="snd_rc_player_electrified" vol="0.8" bg="0" debug="0" />
+
+    <!-- BOSS -->
+    <sound linked="snd_rc_enemies_boss_dizzy" vol="1.2" bg="0" debug="1" />
+    <sound linked="snd_rc_enemies_boss_gethit" vol="0.4" bg="0" debug="1" />
+    <sound linked="snd_rc_enemies_boss_jump" vol="1.4" bg="0" debug="1" />
+    <sound linked="snd_rc_enemies_boss_punchdown" vol="1.3" bg="0" debug="1" />
+    <sound linked="snd_rc_enemies_boss_punchup" vol="1.3" bg="0" debug="1" />
+    <sound linked="snd_rc_enemies_boss_robotarm" vol="1.4" bg="0" debug="1" />
+    <sound linked="snd_rc_enemies_boss_attackdirect" vol="1.3" bg="0" debug="1" />
+    <sound linked="snd_rc_enemies_boss_attackground" vol="1.4" bg="0" debug="1" />
+    <sound linked="snd_rc_enemies_boss_tenctaclein" vol="1.4" bg="0" debug="1" />
+    <sound linked="snd_rc_enemies_boss_tenctacleout" vol="1.4" bg="0" debug="1" />
+    <sound linked="snd_rc_enemies_boss_bounce" vol="1.4" bg="0" debug="1" />
+    <sound linked="snd_rc_enemies_boss_amb" vol="1.4" bg="1" debug="1" />
+    
+    <!-- CUTSCENE -->
+    <sound linked="snd_rc_cutscene_amb" vol="3" bg="1" debug="1" />
+    <sound linked="snd_rc_cutscene_kranky" vol="2" bg="0" debug="1" />
+    <sound linked="snd_rc_cutscene_kranky_grab" vol="2" bg="0" debug="1" />
+    <sound linked="snd_rc_cutscene_kranky_wall" vol="2" bg="0" debug="1" />
+    
+    <!-- VO INTRO-->
+    <sound linked="RCP_R001" vol="2.7" bg="0" debug="1" />
+    <sound linked="RCP_R002a" vol="2.7" bg="0" debug="1" />
+    <sound linked="RCP_R002b" vol="2.7" bg="0" debug="1" />
+    <sound linked="RCP_R003" vol="2.4" bg="0" debug="1" />
+    <sound linked="RCP_H001" vol="2.7" bg="0" debug="1" />
+    <sound linked="RCP_H002" vol="2.7" bg="0" debug="1" />
+    <sound linked="RCP_H003" vol="2.7" bg="0" debug="1" />
+    <sound linked="RCP_H004" vol="2.7" bg="0" debug="1" />
+    
+    <!-- VO OUTRO -->
+    <sound linked="RCP_R0038" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_R0039" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_R0040" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_R0041" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_H023" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_H024" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_H025" vol="2.0" bg="0" debug="1" />
+    <sound linked="RCP_H026" vol="1.6" bg="0" debug="1" />
+    
+    <!-- VO HOWARD -->
+    <sound linked="RCP_H005" vol="1.6" bg="0" debug="1" />
+    <sound linked="RCP_H006" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_H006A" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_H007" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_H008" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_H009" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_H010" vol="1.4" bg="0" debug="1" />
+    
+    <sound linked="RCP_H011" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_H012" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_H013" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_H014" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_H015" vol="1.6" bg="0" debug="1" />
+    
+    <sound linked="RCP_H016" vol="5.0" bg="0" debug="1" />
+    <sound linked="RCP_H017" vol="5.0" bg="0" debug="1" />
+    <sound linked="RCP_H018" vol="5.0" bg="0" debug="1" />
+    <sound linked="RCP_H019" vol="5.0" bg="0" debug="1" />
+    <sound linked="RCP_H020" vol="5.0" bg="0" debug="1" />
+    
+    <sound linked="RCP_H021" vol="1.8" bg="0" debug="1" />
+    <sound linked="RCP_H022" vol="1.8" bg="0" debug="1" />
+    <sound linked="RCP_H027" vol="1.8" bg="0" debug="1" />
+    <sound linked="RCP_H028" vol="1.8" bg="0" debug="1" />
+    
+    <!-- VO RANDY -->
+    <sound linked="RCP_R0004" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0005" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0006" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0007" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0008" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0009" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0010" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0011" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0012" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0013" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0013A" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0014" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0015" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0016" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0017" vol="1.2" bg="0" debug="1" />
+    <sound linked="RCP_R0018" vol="1.2" bg="0" debug="1" />
+    
+    <sound linked="RCP_R0019" vol="7.5" bg="0" debug="1" />
+    
+    <sound linked="RCP_R0020" vol="1.3" bg="0" debug="1" />
+    <sound linked="RCP_R0021" vol="1.3" bg="0" debug="1" />
+    <sound linked="RCP_R0022" vol="1.3" bg="0" debug="1" />
+    <sound linked="RCP_R0023" vol="1.3" bg="0" debug="1" />
+    
+    <sound linked="RCP_R0024" vol="1" bg="0" debug="1" />
+    <sound linked="RCP_R0025" vol="1" bg="0" debug="1" />
+    <sound linked="RCP_R0026" vol="1" bg="0" debug="1" />
+    
+    <sound linked="RCP_R0027" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_R0028" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_R0029" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_R0030" vol="1.4" bg="0" debug="1" />
+    
+    <sound linked="RCP_R0031" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_R0032" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_R0033" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_R0034" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_R0035" vol="1.4" bg="0" debug="1" />
+    
+    <sound linked="RCP_R0036" vol="1.8" bg="0" debug="1" />
+    
+    <sound linked="RCP_R0037" vol="1.2" bg="0" debug="1" />
+    
+    <sound linked="RCP_R0042" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_R0043" vol="1.4" bg="0" debug="1" />
+    <sound linked="RCP_R0044" vol="1.4" bg="0" debug="1" />
+</data>

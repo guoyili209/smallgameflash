@@ -1,0 +1,658 @@
+<world>
+	<properties>
+		<width> 18720 </width>
+		<height> 3120 </height>
+		<cameraWidth> 750 </cameraWidth>
+		<cameraHeight> 500 </cameraHeight>
+		<cameraScreenX> 0 </cameraScreenX>
+		<cameraScreenY> 0 </cameraScreenY>
+		<cameraYMin> 0.7 </cameraYMin>
+		<cameraYMax> 0.8 </cameraYMax>
+		<cameraXMin> 0.35 </cameraXMin>
+		<cameraXMax> 0.65 </cameraXMax>
+		<showCollisions> 1 </showCollisions>
+		<playerX> 323 </playerX>
+		<playerY> 1786 </playerY>
+		<useEmbeddedAssets> 1 </useEmbeddedAssets>
+		<assetsPath> ../images </assetsPath>
+	</properties>
+	<layer type="cell" name="background1" cols="6" rows="3" tileW="256" tileH="250" map="mc_map_lvl02_background1" width="880" height="570" >
+		<tile image="norrisville_highschool_inside_background-rc_background_02__0" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__3" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__6" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__9" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__12" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__15" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__1" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__4" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__7" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__10" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__13" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__16" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__2" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__5" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__8" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__11" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__14" />
+		<tile image="norrisville_highschool_inside_background-rc_background_02__17" />
+	</layer>
+	<layer name="tileset_wall" cols="98" rows="15" tileW="192" tileH="192" map="mc_map_lvl02_tileset_wall" width="18720" height="3120" >
+		<tile image="tileset_wall-tile_10_2" />
+		<tile image="tileset_wall-tile_08_2" />
+		<tile image="tileset_wall-tile_21_2" />
+		<tile image="tileset_wall-tile_00_0" />
+		<tile image="tileset_wall-tile_01_0" />
+		<tile image="tileset_wall-tile_14_2" />
+		<tile image="tileset_wall-tile_12_2" />
+		<tile image="tileset_wall-tile_09_2" />
+		<tile image="tileset_wall-tile_04_2" />
+		<tile image="tileset_wall-tile_03_2" />
+		<tile image="tileset_wall-tile_05_0" />
+		<tile image="tileset_wall-tile_05_1" />
+		<tile image="tileset_wall-tile_07_1" />
+		<tile image="tileset_wall-tile_04_1" />
+		<tile image="tileset_wall-tile_02_0" />
+		<tile image="tileset_wall-tile_24_0" />
+		<tile image="tileset_wall-tile_25_0" />
+		<tile image="tileset_wall-tile_26_0" />
+		<tile image="tileset_wall-tile_27_0" />
+		<tile image="tileset_wall-tile_06_0" />
+		<tile image="tileset_wall-tile_11_2" />
+		<tile image="tileset_wall-tile_00_2" />
+		<tile image="tileset_wall-tile_19_2" />
+		<tile image="tileset_wall-tile_28_0" />
+		<tile image="tileset_wall-tile_29_0" />
+		<tile image="tileset_wall-tile_30_0" />
+		<tile image="tileset_wall-tile_31_0" />
+		<tile image="tileset_wall-tile_04_0" />
+		<tile image="tileset_wall-tile_10_0" />
+		<tile image="tileset_wall-tile_27_2" />
+		<tile image="tileset_wall-tile_23_2" />
+		<tile image="tileset_wall-tile_07_2" />
+		<tile image="tileset_wall-tile_16_0" />
+		<tile image="tileset_wall-tile_19_0" />
+		<tile image="tileset_wall-tile_03_0" />
+		<tile image="tileset_wall-tile_17_0" />
+		<tile image="tileset_wall-tile_18_0" />
+		<tile image="tileset_wall-tile_35_2" />
+		<tile image="tileset_wall-tile_24_2" />
+		<tile image="tileset_wall-tile_25_2" />
+		<tile image="tileset_wall-tile_15_2" />
+		<tile image="tileset_wall-tile_13_2" />
+		<tile image="tileset_wall-tile_31_2" />
+		<tile image="tileset_wall-tile_35_0" />
+		<tile image="tileset_wall-tile_37_0" />
+		<tile image="tileset_wall-tile_38_0" />
+		<tile image="tileset_wall-tile_38_2" />
+		<tile image="tileset_wall-tile_37_2" />
+		<tile image="tileset_wall-tile_03_1" />
+		<tile image="tileset_wall-tile_14_0" />
+		<tile image="tileset_wall-tile_20_0" />
+		<tile image="tileset_wall-tile_23_0" />
+		<tile image="tileset_wall-tile_07_0" />
+		<tile image="tileset_wall-tile_21_0" />
+		<tile image="tileset_wall-tile_22_0" />
+		<tile image="tileset_wall-tile_33_0" />
+		<tile image="tileset_wall-tile_18_2" />
+		<tile image="tileset_wall-tile_17_2" />
+		<tile image="tileset_wall-tile_20_2" />
+		<tile image="tileset_wall-tile_34_0" />
+		<tile image="tileset_wall-tile_36_0" />
+		<tile image="tileset_wall-tile_39_2" />
+		<tile image="tileset_wall-tile_36_2" />
+		<tile image="tileset_wall-tile_08_1" />
+		<tile image="tileset_wall-tile_09_1" />
+		<tile image="tileset_wall-tile_10_1" />
+		<tile image="tileset_wall-tile_11_1" />
+		<tile image="tileset_wall-tile_24_1" />
+		<tile image="tileset_wall-tile_25_1" />
+		<tile image="tileset_wall-tile_26_1" />
+		<tile image="tileset_wall-tile_27_1" />
+		<tile image="tileset_wall-tile_02_1" />
+		<tile image="tileset_wall-tile_28_2" />
+		<tile image="tileset_wall-tile_29_2" />
+		<tile image="tileset_wall-tile_30_2" />
+		<tile image="tileset_wall-tile_02_2" />
+		<tile image="tileset_wall-tile_12_1" />
+		<tile image="tileset_wall-tile_13_1" />
+		<tile image="tileset_wall-tile_14_1" />
+		<tile image="tileset_wall-tile_15_1" />
+		<tile image="tileset_wall-tile_28_1" />
+		<tile image="tileset_wall-tile_29_1" />
+		<tile image="tileset_wall-tile_30_1" />
+		<tile image="tileset_wall-tile_31_1" />
+		<tile image="tileset_wall-tile_11_0" />
+		<tile image="tileset_wall-tile_32_2" />
+		<tile image="tileset_wall-tile_33_2" />
+		<tile image="tileset_wall-tile_34_2" />
+		<tile image="tileset_wall-tile_06_2" />
+		<tile image="tileset_wall-tile_16_1" />
+		<tile image="tileset_wall-tile_17_1" />
+		<tile image="tileset_wall-tile_18_1" />
+		<tile image="tileset_wall-tile_19_1" />
+		<tile image="tileset_wall-tile_32_1" />
+		<tile image="tileset_wall-tile_33_1" />
+		<tile image="tileset_wall-tile_34_1" />
+		<tile image="tileset_wall-tile_35_1" />
+		<tile image="tileset_wall-tile_39_0" />
+		<tile image="tileset_wall-tile_06_1" />
+		<tile image="tileset_wall-tile_15_0" />
+	</layer>
+	<layer type="sprites" name="sprites" width="18720" height="3120" >
+		<gpx x="374" y="1823" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="575" y="1827" image="norrisville_highschool_inside_sprites-rc_sprite_12" />
+		<gpx x="771" y="1778" image="norrisville_highschool_inside_sprites-rc_sprite_06" />
+		<gpx x="1062" y="1821" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="1261" y="1864" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="1562" y="1084" image="norrisville_highschool_inside_sprites-rc_sprite_18" />
+		<gpx x="1871" y="1875" image="norrisville_highschool_inside_sprites-rc_sprite_02" />
+		<gpx x="2062" y="1011" image="norrisville_highschool_inside_sprites-rc_sprite_04" />
+		<gpx x="2069" y="1916" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="2204" y="1778" image="norrisville_highschool_inside_sprites-rc_sprite_18" />
+		<gpx x="2205" y="1949" image="norrisville_highschool_inside_sprites-rc_sprite_01" />
+		<gpx x="2343" y="1914" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="2399" y="1011" image="norrisville_highschool_inside_sprites-rc_sprite_04" />
+		<gpx x="2541" y="1877" image="norrisville_highschool_inside_sprites-rc_sprite_02" />
+		<gpx x="2656" y="1106" image="norrisville_highschool_inside_sprites-rc_sprite_25" />
+		<gpx x="2919" y="1178" image="norrisville_highschool_inside_sprites-rc_sprite_15" />
+		<gpx x="2920" y="1466" image="norrisville_highschool_inside_sprites-rc_sprite_15" />
+		<gpx x="2920" y="1753" image="norrisville_highschool_inside_sprites-rc_sprite_15" />
+		<gpx x="2970" y="1966" image="norrisville_highschool_inside_sprites-rc_sprite_16" />
+		<gpx x="3121" y="1961" image="norrisville_highschool_inside_sprites-rc_sprite_09" />
+		<gpx x="3224" y="1370" image="norrisville_highschool_inside_sprites-rc_sprite_15" />
+		<gpx x="3226" y="1658" image="norrisville_highschool_inside_sprites-rc_sprite_15" />
+		<gpx x="3262" y="1970" image="norrisville_highschool_inside_sprites-rc_sprite_05" />
+		<gpx x="3389" y="2015" image="norrisville_highschool_inside_sprites-rc_sprite_12" />
+		<gpx x="3479" y="2066" image="norrisville_highschool_inside_sprites-rc_sprite_25" />
+		<gpx x="3641" y="1650" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="3742" y="1970" image="norrisville_highschool_inside_sprites-rc_sprite_05" />
+		<gpx x="3950" y="1865" image="norrisville_highschool_inside_sprites-rc_sprite_18" />
+		<gpx x="3974" y="2204" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="4145" y="1965" image="norrisville_highschool_inside_sprites-rc_sprite_09" />
+		<gpx x="4375" y="2204" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="4383" y="1867" image="norrisville_highschool_inside_sprites-rc_sprite_18" />
+		<gpx x="4619" y="1965" image="norrisville_highschool_inside_sprites-rc_sprite_05" />
+		<gpx x="4753" y="2066" image="norrisville_highschool_inside_sprites-rc_sprite_25" />
+		<gpx x="4823" y="2043" image="norrisville_highschool_inside_sprites-rc_sprite_01" />
+		<gpx x="5050" y="2056" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="5171" y="1965" image="norrisville_highschool_inside_sprites-rc_sprite_05" />
+		<gpx x="5328" y="2433" image="norrisville_highschool_inside_sprites-rc_sprite_09" />
+		<gpx x="5437" y="2041" image="norrisville_highschool_inside_sprites-rc_sprite_21" />
+		<gpx x="5459" y="2446" image="norrisville_highschool_inside_sprites-rc_sprite_04" />
+		<gpx x="5618" y="2057" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="5646" y="2432" image="norrisville_highschool_inside_sprites-rc_sprite_09" />
+		<gpx x="5757" y="2018" image="norrisville_highschool_inside_sprites-rc_sprite_12" />
+		<gpx x="5849" y="2445" image="norrisville_highschool_inside_sprites-rc_sprite_06" />
+		<gpx x="6098" y="2493" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="6142" y="2038" image="norrisville_highschool_inside_sprites-rc_sprite_14" />
+		<gpx x="6144" y="1913" image="norrisville_highschool_inside_sprites-rc_sprite_09" />
+		<gpx x="6333" y="2494" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="6480" y="2445" image="norrisville_highschool_inside_sprites-rc_sprite_04" />
+		<gpx x="6526" y="1914" image="norrisville_highschool_inside_sprites-rc_sprite_09" />
+		<gpx x="6526" y="2040" image="norrisville_highschool_inside_sprites-rc_sprite_19" />
+		<gpx x="6629" y="2493" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="6777" y="1658" image="norrisville_highschool_inside_sprites-rc_sprite_24" />
+		<gpx x="6864" y="2492" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="6909" y="2038" image="norrisville_highschool_inside_sprites-rc_sprite_14" />
+		<gpx x="6911" y="1911" image="norrisville_highschool_inside_sprites-rc_sprite_09" />
+		<gpx x="7007" y="2446" image="norrisville_highschool_inside_sprites-rc_sprite_04" />
+		<gpx x="7102" y="2044" image="norrisville_highschool_inside_sprites-rc_sprite_01" />
+		<gpx x="7153" y="2494" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="7303" y="2013" image="norrisville_highschool_inside_sprites-rc_sprite_10" />
+		<gpx x="7401" y="2445" image="norrisville_highschool_inside_sprites-rc_sprite_06" />
+		<gpx x="7664" y="2495" image="norrisville_highschool_inside_sprites-rc_sprite_23" />
+		<gpx x="7809" y="2041" image="norrisville_highschool_inside_sprites-rc_sprite_20" />
+		<gpx x="7870" y="2445" image="norrisville_highschool_inside_sprites-rc_sprite_05" />
+		<gpx x="8041" y="2521" image="norrisville_highschool_inside_sprites-rc_sprite_21" />
+		<gpx x="8223" y="2042" image="norrisville_highschool_inside_sprites-rc_sprite_21" />
+		<gpx x="8401" y="2044" image="norrisville_highschool_inside_sprites-rc_sprite_01" />
+		<gpx x="8575" y="2019" image="norrisville_highschool_inside_sprites-rc_sprite_12" />
+		<gpx x="8898" y="2163" image="norrisville_highschool_inside_sprites-rc_sprite_25" />
+		<gpx x="9021" y="2152" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="9527" y="2044" image="norrisville_highschool_inside_sprites-rc_sprite_01" />
+		<gpx x="9603" y="1193" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="9709" y="1018" image="norrisville_highschool_inside_sprites-rc_sprite_18" />
+		<gpx x="9770" y="1180" image="norrisville_highschool_inside_sprites-rc_sprite_01" />
+		<gpx x="9980" y="1148" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="10058" y="1015" image="norrisville_highschool_inside_sprites-rc_sprite_09" />
+		<gpx x="10366" y="958" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="10496" y="914" image="norrisville_highschool_inside_sprites-rc_sprite_05" />
+		<gpx x="10559" y="987" image="norrisville_highschool_inside_sprites-rc_sprite_01" />
+		<gpx x="10622" y="915" image="norrisville_highschool_inside_sprites-rc_sprite_05" />
+		<gpx x="10681" y="1179" image="norrisville_highschool_inside_sprites-rc_sprite_20" />
+		<gpx x="10750" y="958" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="10850" y="1192" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="11103" y="1177" image="norrisville_highschool_inside_sprites-rc_sprite_21" />
+		<gpx x="11458" y="1176" image="norrisville_highschool_inside_sprites-rc_sprite_20" />
+		<gpx x="11614" y="1007" image="norrisville_highschool_inside_sprites-rc_sprite_18" />
+		<gpx x="11772" y="1079" image="norrisville_highschool_inside_sprites-rc_sprite_21" />
+		<gpx x="11963" y="1079" image="norrisville_highschool_inside_sprites-rc_sprite_17" />
+		<gpx x="12094" y="1085" image="norrisville_highschool_inside_sprites-rc_sprite_01" />
+		<gpx x="12257" y="1193" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="12330" y="1919" image="norrisville_highschool_inside_sprites-rc_sprite_09" />
+		<gpx x="12333" y="1535" image="norrisville_highschool_inside_sprites-rc_sprite_09" />
+		<gpx x="12335" y="1141" image="norrisville_highschool_inside_sprites-rc_sprite_09" />
+		<gpx x="12566" y="2332" image="norrisville_highschool_inside_sprites-rc_sprite_01" />
+		<gpx x="12672" y="2343" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="12733" y="2045" image="norrisville_highschool_inside_sprites-rc_sprite_24" />
+		<gpx x="12800" y="1753" image="norrisville_highschool_inside_sprites-rc_sprite_20" />
+		<gpx x="12841" y="2252" image="norrisville_highschool_inside_sprites-rc_sprite_06" />
+		<gpx x="13023" y="1177" image="norrisville_highschool_inside_sprites-rc_sprite_21" />
+		<gpx x="13113" y="2302" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="13238" y="2046" image="norrisville_highschool_inside_sprites-rc_sprite_24" />
+		<gpx x="13249" y="1193" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="13343" y="1108" image="norrisville_highschool_inside_sprites-rc_sprite_05" />
+		<gpx x="13378" y="2303" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="13482" y="1159" image="norrisville_highschool_inside_sprites-rc_sprite_12" />
+		<gpx x="13536" y="2345" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="13695" y="2303" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="13727" y="1102" image="norrisville_highschool_inside_sprites-rc_sprite_06" />
+		<gpx x="13738" y="2046" image="norrisville_highschool_inside_sprites-rc_sprite_24" />
+		<gpx x="13954" y="1150" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="13964" y="2302" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="14183" y="1151" image="norrisville_highschool_inside_sprites-rc_sprite_07" />
+		<gpx x="14205" y="2344" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="14239" y="2044" image="norrisville_highschool_inside_sprites-rc_sprite_24" />
+		<gpx x="14306" y="239" image="norrisville_highschool_inside_sprites-rc_sprite_04" />
+		<gpx x="14379" y="1100" image="norrisville_highschool_inside_sprites-rc_sprite_02" />
+		<gpx x="14398" y="2303" image="norrisville_highschool_inside_sprites-rc_sprite_23" />
+		<gpx x="14542" y="1150" image="norrisville_highschool_inside_sprites-rc_sprite_10" />
+		<gpx x="14619" y="2253" image="norrisville_highschool_inside_sprites-rc_sprite_02" />
+		<gpx x="14672" y="1102" image="norrisville_highschool_inside_sprites-rc_sprite_16" />
+		<gpx x="14689" y="240" image="norrisville_highschool_inside_sprites-rc_sprite_05" />
+		<gpx x="14784" y="1096" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="14784" y="2343" image="norrisville_highschool_inside_sprites-rc_sprite_08" />
+		<gpx x="15225" y="602" image="norrisville_highschool_inside_sprites-rc_sprite_15" />
+		<gpx x="15313" y="238" image="norrisville_highschool_inside_sprites-rc_sprite_05" />
+		<gpx x="15648" y="315" image="norrisville_highschool_inside_sprites-rc_sprite_01" />
+		<gpx x="16031" y="239" image="norrisville_highschool_inside_sprites-rc_sprite_04" />
+		<gpx x="16055" y="984" image="norrisville_highschool_inside_sprites-rc_sprite_20" />
+		<gpx x="16225" y="1084" image="norrisville_highschool_inside_sprites-rc_sprite_01" />
+		<gpx x="16747" y="1119" image="norrisville_highschool_inside_sprites-rc_sprite_25" />
+		<gpx x="17148" y="696" image="norrisville_highschool_inside_sprites-rc_sprite_19" />
+		<gpx x="17242" y="1055" image="norrisville_highschool_inside_sprites-rc_sprite_10" />
+		<gpx x="17517" y="320" image="norrisville_highschool_inside_sprites-rc_sprite_24" />
+		<gpx x="17989" y="791" image="norrisville_highschool_inside_sprites-rc_sprite_19" />
+		<gpx x="18041" y="565" image="norrisville_highschool_inside_sprites-rc_sprite_09" />
+	</layer>
+	<layer name="tileset_school_in" cols="195" rows="31" tileW="96" tileH="96" map="mc_map_lvl02_tileset_school_in" width="18720" height="3120" >
+		<tile image="tileset_school_in-tile_05_0" />
+		<tile image="tileset_school_in-tile_33_0" />
+		<tile image="tileset_school_in-tile_09_0" />
+		<tile image="tileset_school_in-tile_32_0" />
+		<tile image="tileset_school_in-tile_06_0" />
+		<tile image="tileset_school_in-tile_04_0" />
+		<tile image="tileset_school_in-tile_11_0" />
+		<tile image="tileset_school_in-tile_07_0" />
+		<tile image="tileset_school_in-tile_29_0" />
+		<tile image="tileset_school_in-tile_01_0" />
+		<tile image="tileset_school_in-tile_02_0" />
+		<tile image="tileset_school_in-tile_00_0" />
+		<tile image="tileset_school_in-tile_28_0" />
+		<tile image="tileset_school_in-tile_15_0" />
+		<tile image="tileset_school_in-tile_19_0" />
+		<tile image="tileset_school_in-tile_10_0" />
+		<tile image="tileset_school_in-tile_08_0" />
+		<tile image="tileset_school_in-tile_03_0" />
+		<tile image="tileset_school_in-tile_26_0" />
+		<tile image="tileset_school_in-tile_14_0" />
+	</layer>
+	<layer type="collision" name="collisions" cols="780" rows="130" tileW="24" tileH="24" map="mc_map_lvl02_collisions" width="18720" height="3120" >
+	</layer>
+	<layer type="objects" name="items" >
+		<object x="591" y="1825" id="117" params="clip:mcCoin" />
+		<object x="627" y="1758" id="117" params="clip:mcCoin" />
+		<object x="653" y="1817" id="51" params="clip:mcItemInventaryShuriken;type:2" />
+		<object x="653" y="1867" id="54" params="clip:mcBombPedestal;idHelp:1;idBomb:2" />
+		<object x="683" y="1758" id="117" params="clip:mcCoin" />
+		<object x="710" y="1827" id="117" params="clip:mcCoin" />
+		<object x="1130" y="1230" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="1130" y="1490" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="1130" y="1750" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="1265" y="1850" id="202" params="clip:mcEnemy_meele;isStrong:0;skin:2;health:90;walkRange:0;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:5;color:1;stopId:0;group:0;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:0;lifeChances:0" />
+		<object x="1270" y="1100" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="1270" y="1360" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="1270" y="1620" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="1323" y="1835" id="117" params="clip:mcCoin" />
+		<object x="1394" y="1835" id="117" params="clip:mcCoin" />
+		<object x="1470" y="1835" id="117" params="clip:mcCoin" />
+		<object x="1539" y="1835" id="117" params="clip:mcCoin" />
+		<object x="1613" y="1835" id="117" params="clip:mcCoin" />
+		<object x="1683" y="1836" id="117" params="clip:mcCoin" />
+		<object x="1724" y="1881" id="117" params="clip:mcCoin" />
+		<object x="1749" y="1940" id="117" params="clip:mcCoin" />
+		<object x="1774" y="1082" id="115" params="clip:;checkInRange:1;direction:2;rangeX:30;rangeY:100;damage:10;speed:0.3;missileY1:1068;delay1:3500;missileY2:0;delay2:0;missileY3:0;delay3:0;stopId:0;group:0" />
+		<object x="1792" y="1975" id="117" params="clip:mcCoin" />
+		<object x="1827" y="1940" id="117" params="clip:mcCoin" />
+		<object x="1867" y="1975" id="117" params="clip:mcCoin" />
+		<object x="1902" y="1940" id="117" params="clip:mcCoin" />
+		<object x="1916" y="1222" id="111" params="clip:mcDamageBlockFloor;zoneDamageType:1;damage:10" />
+		<object x="1933" y="1975" id="117" params="clip:mcCoin" />
+		<object x="1978" y="1940" id="117" params="clip:mcCoin" />
+		<object x="2013" y="1975" id="117" params="clip:mcCoin" />
+		<object x="2049" y="1940" id="117" params="clip:mcCoin" />
+		<object x="2080" y="1078" id="115" params="clip:;checkInRange:1;direction:2;rangeX:30;rangeY:100;damage:10;speed:0.3;missileY1:1068;delay1:3500;missileY2:0;delay2:0;missileY3:0;delay3:0;stopId:0;group:0" />
+		<object x="2092" y="1975" id="117" params="clip:mcCoin" />
+		<object x="2127" y="1940" id="117" params="clip:mcCoin" />
+		<object x="2167" y="1975" id="117" params="clip:mcCoin" />
+		<object x="2202" y="1940" id="117" params="clip:mcCoin" />
+		<object x="2205" y="1224" id="111" params="clip:mcDamageBlockFloor;zoneDamageType:1;damage:10" />
+		<object x="2233" y="1975" id="117" params="clip:mcCoin" />
+		<object x="2241" y="1947" id="202" params="clip:mcEnemy_meele;isStrong:0;skin:2;health:90;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;color:1;stopId:0;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:0;lifeChances:0" />
+		<object x="2275" y="1940" id="117" params="clip:mcCoin" />
+		<object x="2318" y="1975" id="117" params="clip:mcCoin" />
+		<object x="2353" y="1940" id="117" params="clip:mcCoin" />
+		<object x="2393" y="1975" id="117" params="clip:mcCoin" />
+		<object x="2428" y="1940" id="117" params="clip:mcCoin" />
+		<object x="2459" y="1975" id="117" params="clip:mcCoin" />
+		<object x="2469" y="1075" id="202" params="clip:mcEnemy_meele;isStrong:0;skin:2;health:90;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;color:1;stopId:0;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:0;lifeChances:0" />
+		<object x="2504" y="1940" id="117" params="clip:mcCoin" />
+		<object x="2539" y="1975" id="117" params="clip:mcCoin" />
+		<object x="2575" y="1940" id="117" params="clip:mcCoin" />
+		<object x="2618" y="1975" id="117" params="clip:mcCoin" />
+		<object x="2653" y="1940" id="117" params="clip:mcCoin" />
+		<object x="2656" y="1075" id="106" params="clip:mcItemMana;quantity:30;delay:5000" />
+		<object x="2693" y="1975" id="117" params="clip:mcCoin" />
+		<object x="2768" y="1038" id="105" params="clip:mcIceDoor;health:100;damage:0" />
+		<object x="2953" y="1771" id="117" params="clip:mcCoin" />
+		<object x="2959" y="1192" id="117" params="clip:mcCoin" />
+		<object x="2961" y="1483" id="117" params="clip:mcCoin" />
+		<object x="3190" y="1677" id="117" params="clip:mcCoin" />
+		<object x="3194" y="1389" id="117" params="clip:mcCoin" />
+		<object x="3479" y="2026" id="106" params="clip:mcItemMana;quantity:30;delay:5000" />
+		<object x="3588" y="1997" id="105" params="clip:mcIceDoor;health:100;damage:0" />
+		<object x="3975" y="2233" id="202" params="clip:mcEnemy_meele;isStrong:0;skin:2;health:90;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;color:1;stopId:2;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:0;lifeChances:0" />
+		<object x="4140" y="2180" id="110" params="clip:;stopId:2;groups:1;limitLeft:700;limitRight:500;startSurvivalWave:1;isEndLevel:0" />
+		<object x="4284" y="2225" id="203" params="clip:mcEnemy_range;isStrong:0;skin:6;health:40;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;bulletDamage:10;bulletSpeed:0.45;bulletCreateRange:500;color:1;stopId:2;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:500;healthChances:0;manaChances:30;lifeChances:0" />
+		<object x="4382" y="2226" id="202" params="clip:mcEnemy_meele;isStrong:0;skin:2;health:90;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;color:1;stopId:2;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:0;lifeChances:0" />
+		<object x="4754" y="2024" id="106" params="clip:mcItemMana;quantity:30;delay:10000" />
+		<object x="4924" y="1992" id="105" params="clip:mcIceDoor;health:100;damage:0" />
+		<object x="5110" y="2024" id="104" params="clip:mcItemHealth;quantity:30" />
+		<object x="5567" y="2662" id="111" params="clip:mcDamageBlockFloor;zoneDamageType:1;damage:10" />
+		<object x="5705" y="2050" id="115" params="clip:;checkInRange:1;direction:2;rangeX:30;rangeY:100;damage:10;speed:0.3;missileY1:2020;delay1:3500;missileY2:0;delay2:0;missileY3:0;delay3:0;stopId:0;group:0" />
+		<object x="5999" y="2516" id="203" params="clip:mcEnemy_range;isStrong:0;skin:6;health:40;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;bulletDamage:10;bulletSpeed:0.3;bulletCreateRange:500;color:1;stopId:0;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:500;healthChances:0;manaChances:30;lifeChances:0" />
+		<object x="6196" y="2510" id="117" params="clip:mcCoin" />
+		<object x="6237" y="2051" id="116" params="clip:;useObjectYPosition:0;checkInRange:1;direction:2;rangeX:30;rangeY:100;damage:5;speed:0.22;delay:3000;stopId:0;group:0" />
+		<object x="6239" y="2545" id="117" params="clip:mcCoin" />
+		<object x="6274" y="2510" id="117" params="clip:mcCoin" />
+		<object x="6314" y="2545" id="117" params="clip:mcCoin" />
+		<object x="6349" y="2510" id="117" params="clip:mcCoin" />
+		<object x="6380" y="2545" id="117" params="clip:mcCoin" />
+		<object x="6425" y="2510" id="117" params="clip:mcCoin" />
+		<object x="6460" y="2545" id="117" params="clip:mcCoin" />
+		<object x="6496" y="2510" id="117" params="clip:mcCoin" />
+		<object x="6539" y="2545" id="117" params="clip:mcCoin" />
+		<object x="6574" y="2510" id="117" params="clip:mcCoin" />
+		<object x="6614" y="2545" id="117" params="clip:mcCoin" />
+		<object x="6643" y="2432" id="101" params="clip:mcItemLife" />
+		<object x="6649" y="2510" id="117" params="clip:mcCoin" />
+		<object x="6650" y="2544" id="116" params="clip:;useObjectYPosition:0;checkInRange:1;direction:2;rangeX:30;rangeY:150;damage:20;speed:0.3;delay:4000;stopId:0;group:0" />
+		<object x="6680" y="2545" id="117" params="clip:mcCoin" />
+		<object x="6722" y="2510" id="117" params="clip:mcCoin" />
+		<object x="6765" y="2545" id="117" params="clip:mcCoin" />
+		<object x="6780" y="1697" id="114" params="clip:mcPendulum_laboratory;angleLeft:60;angleRight:60;speed:0.04;damage:10" />
+		<object x="6781" y="2043" id="116" params="clip:;useObjectYPosition:0;checkInRange:1;direction:2;rangeX:30;rangeY:100;damage:5;speed:0.22;delay:3000;stopId:0;group:0" />
+		<object x="6800" y="2510" id="117" params="clip:mcCoin" />
+		<object x="6840" y="2545" id="117" params="clip:mcCoin" />
+		<object x="6875" y="2510" id="117" params="clip:mcCoin" />
+		<object x="6906" y="2545" id="117" params="clip:mcCoin" />
+		<object x="6951" y="2510" id="117" params="clip:mcCoin" />
+		<object x="6986" y="2545" id="117" params="clip:mcCoin" />
+		<object x="7022" y="2510" id="117" params="clip:mcCoin" />
+		<object x="7065" y="2545" id="117" params="clip:mcCoin" />
+		<object x="7100" y="2510" id="117" params="clip:mcCoin" />
+		<object x="7140" y="2545" id="117" params="clip:mcCoin" />
+		<object x="7178" y="2510" id="117" params="clip:mcCoin" />
+		<object x="7213" y="2545" id="117" params="clip:mcCoin" />
+		<object x="7249" y="2510" id="117" params="clip:mcCoin" />
+		<object x="7266" y="2522" id="203" params="clip:mcEnemy_range;isStrong:0;skin:6;health:40;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;bulletDamage:10;bulletSpeed:0.3;bulletCreateRange:500;color:1;stopId:0;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:500;healthChances:0;manaChances:30;lifeChances:0" />
+		<object x="7292" y="2545" id="117" params="clip:mcCoin" />
+		<object x="7327" y="2510" id="117" params="clip:mcCoin" />
+		<object x="7339" y="2040" id="204" params="clip:mcEnemy_strong_ice;isStrong:1;skin:12;health:200;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;bulletDamage:10;bulletSpeed:0.45;bulletCreateRange:5000;color:1;stopId:0;group:0;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:30;manaChances:0;lifeChances:0" />
+		<object x="7367" y="2545" id="117" params="clip:mcCoin" />
+		<object x="7405" y="2510" id="117" params="clip:mcCoin" />
+		<object x="7440" y="2545" id="117" params="clip:mcCoin" />
+		<object x="7476" y="2510" id="117" params="clip:mcCoin" />
+		<object x="7519" y="2545" id="117" params="clip:mcCoin" />
+		<object x="7554" y="2510" id="117" params="clip:mcCoin" />
+		<object x="7594" y="2545" id="117" params="clip:mcCoin" />
+		<object x="8017" y="2442" id="104" params="clip:mcItemHealth;quantity:30" />
+		<object x="8020" y="2490" id="107" params="clip:mcPlatformMobile_school_in;speed:0.08;loop:1;reverse:1;movementType:lp;lp:400,270;alwaysAwake:0" />
+		<object x="8787" y="2085" id="48" params="clip:mcCheckPoint;rangeY:1000;rangeX:400" />
+		<object x="8898" y="2129" id="106" params="clip:mcItemMana;quantity:30;delay:5000" />
+		<object x="9048" y="2098" id="102" params="clip:mcFireDoor;health:30;damage:0" />
+		<object x="9260" y="1526" id="115" params="clip:;checkInRange:1;direction:1;rangeX:50;rangeY:30;damage:10;speed:0.3;missileY1:1249;delay1:3500;missileY2:0;delay2:0;missileY3:0;delay3:0;stopId:0;group:0" />
+		<object x="9264" y="1025" id="117" params="clip:mcCoin" />
+		<object x="9264" y="1539" id="117" params="clip:mcCoin" />
+		<object x="9264" y="1731" id="117" params="clip:mcCoin" />
+		<object x="9266" y="1927" id="117" params="clip:mcCoin" />
+		<object x="9289" y="1066" id="117" params="clip:mcCoin" />
+		<object x="9319" y="1020" id="104" params="clip:mcItemHealth;quantity:30" />
+		<object x="9342" y="1065" id="117" params="clip:mcCoin" />
+		<object x="9359" y="1443" id="117" params="clip:mcCoin" />
+		<object x="9359" y="2014" id="117" params="clip:mcCoin" />
+		<object x="9361" y="1251" id="117" params="clip:mcCoin" />
+		<object x="9361" y="1832" id="117" params="clip:mcCoin" />
+		<object x="9362" y="1636" id="117" params="clip:mcCoin" />
+		<object x="9364" y="1814" id="115" params="clip:;checkInRange:1;direction:1;rangeX:50;rangeY:30;damage:10;speed:0.3;missileY1:1613;delay1:3500;missileY2:0;delay2:0;missileY3:0;delay3:0;stopId:0;group:0" />
+		<object x="9375" y="1025" id="117" params="clip:mcCoin" />
+		<object x="9458" y="1155" id="117" params="clip:mcCoin" />
+		<object x="9458" y="1346" id="117" params="clip:mcCoin" />
+		<object x="9892" y="1176" id="202" params="clip:mcEnemy_meele_normal;isStrong:1;skin:4;health:120;walkRange:200;walkSpeed:0.08;walkChaseSpeed:0.15;timeRest:1000;timeAttack:1000;damage:30;color:1;stopId:0;group:0;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="10376" y="1002" id="117" params="clip:mcCoin" />
+		<object x="10432" y="1002" id="117" params="clip:mcCoin" />
+		<object x="10488" y="1002" id="117" params="clip:mcCoin" />
+		<object x="10544" y="1002" id="117" params="clip:mcCoin" />
+		<object x="10600" y="1002" id="117" params="clip:mcCoin" />
+		<object x="10656" y="1002" id="117" params="clip:mcCoin" />
+		<object x="10712" y="1002" id="117" params="clip:mcCoin" />
+		<object x="10944" y="1325" id="113" params="clip:mc_sticktrap_lab;rotation:0;timeInit:0;timeOn:2000;timeOff:2000;damage:30" />
+		<object x="11111" y="1179" id="202" params="clip:mcEnemy_meele_normal;isStrong:1;skin:4;health:120;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;color:1;stopId:3;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="11144" y="1179" id="202" params="clip:mcEnemy_meele_normal;isStrong:1;skin:4;health:120;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;color:1;stopId:3;group:2;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:100;manaChances:0;lifeChances:0" />
+		<object x="11285" y="1122" id="110" params="clip:;stopId:3;groups:2;limitLeft:700;limitRight:500;startSurvivalWave:1;isEndLevel:0" />
+		<object x="11435" y="1176" id="202" params="clip:mcEnemy_meele_normal;isStrong:1;skin:4;health:120;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;color:1;stopId:3;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="11471" y="1175" id="203" params="clip:mcEnemy_range;isStrong:0;skin:6;health:40;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;bulletDamage:10;bulletSpeed:0.3;bulletCreateRange:500;color:1;stopId:3;group:2;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:500;healthChances:0;manaChances:50;lifeChances:0" />
+		<object x="11615" y="1320" id="113" params="clip:mc_sticktrap_lab;rotation:0;timeInit:0;timeOn:2000;timeOff:2000;damage:30" />
+		<object x="12269" y="1957" id="117" params="clip:mcCoin" />
+		<object x="12270" y="1576" id="117" params="clip:mcCoin" />
+		<object x="12271" y="1188" id="117" params="clip:mcCoin" />
+		<object x="12288" y="2275" id="48" params="clip:mcCheckPoint;rangeY:1000;rangeX:400" />
+		<object x="12396" y="2149" id="117" params="clip:mcCoin" />
+		<object x="12402" y="1378" id="117" params="clip:mcCoin" />
+		<object x="12407" y="1766" id="117" params="clip:mcCoin" />
+		<object x="12599" y="2344" id="117" params="clip:mcCoin" />
+		<object x="12654" y="2264" id="117" params="clip:mcCoin" />
+		<object x="12686" y="1558" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="12687" y="1508" id="117" params="clip:mcCoin" />
+		<object x="12697" y="1356" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="12699" y="1309" id="117" params="clip:mcCoin" />
+		<object x="12719" y="2198" id="117" params="clip:mcCoin" />
+		<object x="12738" y="2086" id="114" params="clip:mcPendulum_laboratory;angleLeft:60;angleRight:60;speed:0.08;damage:10" />
+		<object x="12741" y="1749" id="203" params="clip:mcEnemy_range_rocket;isStrong:1;skin:8;health:120;walkRange:300;walkSpeed:0.15;walkChaseSpeed:0.2;timeRest:1000;timeAttack:1000;damage:30;bulletDamage:20;bulletSpeed:0.3;bulletCreateRange:500;color:1;stopId:0;group:0;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:500;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="12771" y="2266" id="117" params="clip:mcCoin" />
+		<object x="12808" y="1626" id="117" params="clip:mcCoin" />
+		<object x="12810" y="1681" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="12814" y="2350" id="117" params="clip:mcCoin" />
+		<object x="12831" y="1204" id="117" params="clip:mcCoin" />
+		<object x="12834" y="1409" id="117" params="clip:mcCoin" />
+		<object x="12837" y="1256" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="12840" y="1457" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="12857" y="2350" id="117" params="clip:mcCoin" />
+		<object x="12903" y="2350" id="117" params="clip:mcCoin" />
+		<object x="12952" y="2350" id="117" params="clip:mcCoin" />
+		<object x="12995" y="1900" id="113" params="clip:mc_sticktrap_lab;rotation:0;timeInit:0;timeOn:3000;timeOff:700;damage:10" />
+		<object x="13005" y="2350" id="117" params="clip:mcCoin" />
+		<object x="13048" y="2350" id="117" params="clip:mcCoin" />
+		<object x="13094" y="2350" id="117" params="clip:mcCoin" />
+		<object x="13109" y="1088" id="104" params="clip:mcItemHealth;quantity:30" />
+		<object x="13142" y="2316" id="117" params="clip:mcCoin" />
+		<object x="13182" y="2260" id="117" params="clip:mcCoin" />
+		<object x="13204" y="1770" id="117" params="clip:mcCoin" />
+		<object x="13235" y="2193" id="117" params="clip:mcCoin" />
+		<object x="13238" y="2080" id="114" params="clip:mcPendulum_laboratory;angleLeft:60;angleRight:60;speed:0.08;damage:10" />
+		<object x="13290" y="2261" id="117" params="clip:mcCoin" />
+		<object x="13329" y="2315" id="117" params="clip:mcCoin" />
+		<object x="13368" y="2350" id="117" params="clip:mcCoin" />
+		<object x="13384" y="1894" id="113" params="clip:mc_sticktrap_lab;rotation:0;timeInit:0;timeOn:1200;timeOff:700;damage:10" />
+		<object x="13411" y="2350" id="117" params="clip:mcCoin" />
+		<object x="13457" y="2350" id="117" params="clip:mcCoin" />
+		<object x="13485" y="1078" id="115" params="clip:;checkInRange:1;direction:2;rangeX:40;rangeY:500;damage:10;speed:0.38;missileY1:1080;delay1:3500;missileY2:0;delay2:0;missileY3:0;delay3:0;stopId:0;group:0" />
+		<object x="13488" y="1158" id="115" params="clip:;checkInRange:1;direction:2;rangeX:40;rangeY:500;damage:10;speed:0.38;missileY1:1160;delay1:3500;missileY2:0;delay2:0;missileY3:0;delay3:0;stopId:0;group:0" />
+		<object x="13506" y="2350" id="117" params="clip:mcCoin" />
+		<object x="13553" y="2350" id="117" params="clip:mcCoin" />
+		<object x="13582" y="1770" id="117" params="clip:mcCoin" />
+		<object x="13596" y="2350" id="117" params="clip:mcCoin" />
+		<object x="13637" y="2307" id="117" params="clip:mcCoin" />
+		<object x="13677" y="2248" id="117" params="clip:mcCoin" />
+		<object x="13738" y="2083" id="114" params="clip:mcPendulum_laboratory;angleLeft:60;angleRight:60;speed:0.08;damage:10" />
+		<object x="13745" y="2185" id="117" params="clip:mcCoin" />
+		<object x="13765" y="1896" id="113" params="clip:mc_sticktrap_lab;rotation:0;timeInit:0;timeOn:1100;timeOff:700;damage:10" />
+		<object x="13802" y="1182" id="116" params="clip:;useObjectYPosition:0;checkInRange:1;direction:2;rangeX:40;rangeY:100;damage:5;speed:0.3;delay:3000;stopId:0;group:0" />
+		<object x="13807" y="2245" id="117" params="clip:mcCoin" />
+		<object x="13850" y="2309" id="117" params="clip:mcCoin" />
+		<object x="13884" y="2350" id="117" params="clip:mcCoin" />
+		<object x="13929" y="2350" id="117" params="clip:mcCoin" />
+		<object x="13969" y="1775" id="117" params="clip:mcCoin" />
+		<object x="13972" y="2350" id="117" params="clip:mcCoin" />
+		<object x="14018" y="2350" id="117" params="clip:mcCoin" />
+		<object x="14067" y="2350" id="117" params="clip:mcCoin" />
+		<object x="14082" y="305" id="117" params="clip:mcCoin" />
+		<object x="14112" y="2350" id="117" params="clip:mcCoin" />
+		<object x="14125" y="340" id="117" params="clip:mcCoin" />
+		<object x="14139" y="1066" id="115" params="clip:;checkInRange:1;direction:2;rangeX:40;rangeY:500;damage:10;speed:0.38;missileY1:1080;delay1:3500;missileY2:0;delay2:0;missileY3:0;delay3:0;stopId:0;group:0" />
+		<object x="14142" y="1146" id="115" params="clip:;checkInRange:1;direction:2;rangeX:40;rangeY:500;damage:10;speed:0.38;missileY1:1160;delay1:3500;missileY2:0;delay2:0;missileY3:0;delay3:0;stopId:0;group:0" />
+		<object x="14144" y="2304" id="117" params="clip:mcCoin" />
+		<object x="14158" y="1892" id="113" params="clip:mc_sticktrap_lab;rotation:0;timeInit:0;timeOn:1000;timeOff:700;damage:10" />
+		<object x="14160" y="305" id="117" params="clip:mcCoin" />
+		<object x="14189" y="2234" id="117" params="clip:mcCoin" />
+		<object x="14200" y="340" id="117" params="clip:mcCoin" />
+		<object x="14235" y="305" id="117" params="clip:mcCoin" />
+		<object x="14238" y="2078" id="114" params="clip:mcPendulum_laboratory;angleLeft:60;angleRight:60;speed:0.08;damage:10" />
+		<object x="14244" y="2178" id="117" params="clip:mcCoin" />
+		<object x="14266" y="340" id="117" params="clip:mcCoin" />
+		<object x="14303" y="2237" id="117" params="clip:mcCoin" />
+		<object x="14311" y="305" id="117" params="clip:mcCoin" />
+		<object x="14340" y="2299" id="117" params="clip:mcCoin" />
+		<object x="14346" y="340" id="117" params="clip:mcCoin" />
+		<object x="14352" y="1776" id="117" params="clip:mcCoin" />
+		<object x="14382" y="305" id="117" params="clip:mcCoin" />
+		<object x="14386" y="2350" id="117" params="clip:mcCoin" />
+		<object x="14425" y="340" id="117" params="clip:mcCoin" />
+		<object x="14435" y="2350" id="117" params="clip:mcCoin" />
+		<object x="14460" y="305" id="117" params="clip:mcCoin" />
+		<object x="14500" y="340" id="117" params="clip:mcCoin" />
+		<object x="14519" y="319" id="204" params="clip:mcEnemy_strong_ice;isStrong:1;skin:12;health:200;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;bulletDamage:10;bulletSpeed:0.45;bulletCreateRange:5000;color:1;stopId:0;group:0;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:0;lifeChances:0" />
+		<object x="14535" y="305" id="117" params="clip:mcCoin" />
+		<object x="14566" y="340" id="117" params="clip:mcCoin" />
+		<object x="14571" y="2179" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="14572" y="2129" id="117" params="clip:mcCoin" />
+		<object x="14582" y="1977" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="14584" y="1930" id="117" params="clip:mcCoin" />
+		<object x="14588" y="1769" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="14589" y="1717" id="117" params="clip:mcCoin" />
+		<object x="14608" y="305" id="117" params="clip:mcCoin" />
+		<object x="14651" y="340" id="117" params="clip:mcCoin" />
+		<object x="14686" y="305" id="117" params="clip:mcCoin" />
+		<object x="14693" y="2247" id="117" params="clip:mcCoin" />
+		<object x="14695" y="2302" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="14716" y="1825" id="117" params="clip:mcCoin" />
+		<object x="14719" y="2030" id="117" params="clip:mcCoin" />
+		<object x="14722" y="1877" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="14725" y="2078" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="14726" y="340" id="117" params="clip:mcCoin" />
+		<object x="14761" y="305" id="117" params="clip:mcCoin" />
+		<object x="14792" y="340" id="117" params="clip:mcCoin" />
+		<object x="14900" y="361" id="117" params="clip:mcCoin" />
+		<object x="14903" y="607" id="117" params="clip:mcCoin" />
+		<object x="14905" y="400" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="14905" y="660" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="14921" y="988" id="104" params="clip:mcItemHealth;quantity:30" />
+		<object x="15044" y="737" id="117" params="clip:mcCoin" />
+		<object x="15045" y="530" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="15045" y="790" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="15046" y="482" id="117" params="clip:mcCoin" />
+		<object x="15115" y="1017" id="107" params="clip:mcPlatformMobile_school_in;speed:0.12;loop:1;reverse:1;movementType:lp;lp:820,360;alwaysAwake:0" />
+		<object x="15150" y="401" id="107" params="clip:mcPlatformMobile_school_in;speed:0.06;loop:1;reverse:1;movementType:lp;lp:0,0;alwaysAwake:0" />
+		<object x="15155" y="357" id="117" params="clip:mcCoin" />
+		<object x="15188" y="614" id="117" params="clip:mcCoin" />
+		<object x="15227" y="1128" id="111" params="clip:mcDamageBlockFloor;zoneDamageType:1;damage:10" />
+		<object x="15313" y="902" id="117" params="clip:mcCoin" />
+		<object x="15343" y="305" id="117" params="clip:mcCoin" />
+		<object x="15374" y="1128" id="111" params="clip:mcDamageBlockFloor;zoneDamageType:1;damage:10" />
+		<object x="15386" y="340" id="117" params="clip:mcCoin" />
+		<object x="15421" y="305" id="117" params="clip:mcCoin" />
+		<object x="15461" y="340" id="117" params="clip:mcCoin" />
+		<object x="15496" y="305" id="117" params="clip:mcCoin" />
+		<object x="15522" y="1128" id="111" params="clip:mcDamageBlockFloor;zoneDamageType:1;damage:10" />
+		<object x="15527" y="340" id="117" params="clip:mcCoin" />
+		<object x="15572" y="305" id="117" params="clip:mcCoin" />
+		<object x="15593" y="315" id="204" params="clip:mcEnemy_strong_ice;isStrong:1;skin:12;health:200;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;bulletDamage:10;bulletSpeed:0.45;bulletCreateRange:5000;color:1;stopId:0;group:0;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:0;lifeChances:0" />
+		<object x="15606" y="901" id="117" params="clip:mcCoin" />
+		<object x="15607" y="340" id="117" params="clip:mcCoin" />
+		<object x="15643" y="305" id="117" params="clip:mcCoin" />
+		<object x="15669" y="1128" id="111" params="clip:mcDamageBlockFloor;zoneDamageType:1;damage:10" />
+		<object x="15686" y="340" id="117" params="clip:mcCoin" />
+		<object x="15721" y="305" id="117" params="clip:mcCoin" />
+		<object x="15761" y="340" id="117" params="clip:mcCoin" />
+		<object x="15796" y="305" id="117" params="clip:mcCoin" />
+		<object x="15817" y="1128" id="111" params="clip:mcDamageBlockFloor;zoneDamageType:1;damage:10" />
+		<object x="15827" y="340" id="117" params="clip:mcCoin" />
+		<object x="15869" y="305" id="117" params="clip:mcCoin" />
+		<object x="15889" y="904" id="117" params="clip:mcCoin" />
+		<object x="15912" y="340" id="117" params="clip:mcCoin" />
+		<object x="15931" y="1128" id="111" params="clip:mcDamageBlockFloor;zoneDamageType:1;damage:10" />
+		<object x="15947" y="305" id="117" params="clip:mcCoin" />
+		<object x="15987" y="340" id="117" params="clip:mcCoin" />
+		<object x="16002" y="308" id="204" params="clip:mcEnemy_strong_ice;isStrong:1;skin:12;health:200;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;bulletDamage:10;bulletSpeed:0.45;bulletCreateRange:5000;color:1;stopId:0;group:0;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:0;lifeChances:100" />
+		<object x="16022" y="305" id="117" params="clip:mcCoin" />
+		<object x="16053" y="340" id="117" params="clip:mcCoin" />
+		<object x="16305" y="1020" id="48" params="clip:mcCheckPoint;rangeY:1000;rangeX:400" />
+		<object x="16451" y="1085" id="104" params="clip:mcItemHealth;quantity:30" />
+		<object x="16483" y="943" id="47" params="type:7" />
+		<object x="16551" y="1085" id="104" params="clip:mcItemHealth;quantity:30" />
+		<object x="16651" y="1085" id="104" params="clip:mcItemHealth;quantity:30" />
+		<object x="16747" y="1085" id="106" params="clip:mcItemMana;quantity:30;delay:5000" />
+		<object x="16860" y="1038" id="102" params="clip:mcFireDoor;health:100;damage:0" />
+		<object x="17021" y="694" id="203" params="clip:mcEnemy_range_rocket;isStrong:1;skin:8;health:60;walkRange:300;walkSpeed:0.15;walkChaseSpeed:0.2;timeRest:1000;timeAttack:1000;damage:30;bulletDamage:20;bulletSpeed:0.3;bulletCreateRange:500;color:1;stopId:5;group:3;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:500;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="17098" y="709" id="115" params="clip:;checkInRange:1;direction:2;rangeX:20;rangeY:150;damage:10;speed:0.38;missileY1:680;delay1:6000;missileY2:0;delay2:0;missileY3:0;delay3:0;stopId:5;group:3" />
+		<object x="17103" y="695" id="203" params="clip:mcEnemy_range_rocket;isStrong:1;skin:8;health:60;walkRange:300;walkSpeed:0.15;walkChaseSpeed:0.2;timeRest:1000;timeAttack:1000;damage:30;bulletDamage:20;bulletSpeed:0.3;bulletCreateRange:500;color:1;stopId:5;group:2;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:500;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="17136" y="1081" id="202" params="clip:mcEnemy_meele_normal;isStrong:1;skin:4;health:120;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;color:1;stopId:5;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="17193" y="693" id="202" params="clip:mcEnemy_meele_normal;isStrong:1;skin:4;health:120;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;color:1;stopId:5;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="17198" y="1080" id="203" params="clip:mcEnemy_range_rocket;isStrong:1;skin:8;health:60;walkRange:300;walkSpeed:0.15;walkChaseSpeed:0.2;timeRest:1000;timeAttack:1000;damage:30;bulletDamage:20;bulletSpeed:0.3;bulletCreateRange:500;color:1;stopId:5;group:2;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:500;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="17251" y="1082" id="203" params="clip:mcEnemy_range_rocket;isStrong:1;skin:8;health:60;walkRange:300;walkSpeed:0.15;walkChaseSpeed:0.2;timeRest:1000;timeAttack:1000;damage:30;bulletDamage:20;bulletSpeed:0.3;bulletCreateRange:500;color:1;stopId:5;group:3;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:500;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="17275" y="1099" id="115" params="clip:;checkInRange:1;direction:2;rangeX:20;rangeY:150;damage:10;speed:0.38;missileY1:1060;delay1:6000;missileY2:0;delay2:0;missileY3:0;delay3:0;stopId:5;group:3" />
+		<object x="17316" y="1084" id="202" params="clip:mcEnemy_meele_normal;isStrong:1;skin:4;health:120;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;color:1;stopId:5;group:3;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="17516" y="350" id="114" params="clip:mcPendulum_laboratory;angleLeft:60;angleRight:60;speed:0.04;damage:10" />
+		<object x="17588" y="1022" id="110" params="clip:;stopId:5;groups:2;limitLeft:750;limitRight:750;startSurvivalWave:1;isEndLevel:1" />
+		<object x="17711" y="889" id="202" params="clip:mcEnemy_meele_normal;isStrong:1;skin:4;health:120;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;color:1;stopId:5;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="17753" y="888" id="203" params="clip:mcEnemy_range_rocket;isStrong:1;skin:8;health:60;walkRange:300;walkSpeed:0.15;walkChaseSpeed:0.2;timeRest:1000;timeAttack:1000;damage:30;bulletDamage:20;bulletSpeed:0.3;bulletCreateRange:500;color:1;stopId:5;group:3;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:500;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="17774" y="755" id="107" params="clip:mcPlatformMobile_school_in;speed:0.12;loop:1;reverse:1;movementType:lp;lp:310,180;alwaysAwake:0" />
+		<object x="18002" y="793" id="203" params="clip:mcEnemy_range_rocket;isStrong:1;skin:8;health:60;walkRange:300;walkSpeed:0.15;walkChaseSpeed:0.2;timeRest:1000;timeAttack:1000;damage:30;bulletDamage:20;bulletSpeed:0.3;bulletCreateRange:500;color:1;stopId:5;group:2;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:500;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="18067" y="793" id="202" params="clip:mcEnemy_meele_normal;isStrong:1;skin:4;health:120;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;color:1;stopId:5;group:1;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:0;manaChances:40;lifeChances:0" />
+		<object x="18131" y="794" id="204" params="clip:mcEnemy_strong_ice;isStrong:1;skin:12;health:200;walkRange:200;walkSpeed:0.05;walkChaseSpeed:0.08;timeRest:2000;timeAttack:2000;damage:30;bulletDamage:10;bulletSpeed:0.45;bulletCreateRange:5000;color:1;stopId:5;group:3;typeEntrance:1;timeFrozen:5000;timeThunder:1000;timeChoke:3000;searchRadius:1000;healthChances:30;manaChances:0;lifeChances:0" />
+	</layer>
+	<layer type="player" name="player" x="0" y="0" width="0" height="0" >
+	</layer>
+	<layer name="tileset_school_in_b" cols="195" rows="31" tileW="96" tileH="96" map="mc_map_lvl02_tileset_school_in_b" width="18720" height="3120" >
+		<tile image="tileset_school_in_b-tile_06_0" />
+		<tile image="tileset_school_in_b-tile_04_0" />
+		<tile image="tileset_school_in_b-tile_05_0" />
+		<tile image="tileset_school_in_b-tile_32_0" />
+		<tile image="tileset_school_in_b-tile_20_0" />
+		<tile image="tileset_school_in_b-tile_25_0" />
+		<tile image="tileset_school_in_b-tile_29_0" />
+		<tile image="tileset_school_in_b-tile_02_0" />
+		<tile image="tileset_school_in_b-tile_24_0" />
+		<tile image="tileset_school_in_b-tile_21_0" />
+		<tile image="tileset_school_in_b-tile_10_0" />
+	</layer>
+	<layer type="markers" name="physics" >
+		<rectangle x="-46" y="141" params="type:climb;"  w="34" h="248"/>
+		<rectangle x="2005" y="1083" params="cameraScreenX:0;cameraScreenY:0;cameraYMin:0.50;cameraYMax:0.60;cameraXMin:0.35;cameraXMax:0.65;type:camera"  w="1454" h="428"/>
+		<rectangle x="3041" y="1467" params="cameraScreenX:0;cameraScreenY:0;cameraYMin:0.40;cameraYMax:0.50;cameraXMin:0.35;cameraXMax:0.65;type:camera"  w="538" h="1608"/>
+		<rectangle x="10771" y="951" params="cameraScreenX:0;cameraScreenY:0;cameraYMin:0.30;cameraYMax:0.40;cameraXMin:0.35;cameraXMax:0.65;type:camera"  w="452" h="298"/>
+		<rectangle x="12339" y="1488" params="cameraScreenX:0;cameraScreenY:0;cameraYMin:0.40;cameraYMax:0.50;cameraXMin:0.35;cameraXMax:0.65;type:camera"  w="538" h="1156"/>
+		<rectangle x="15566" y="983" params="cameraScreenX:0;cameraScreenY:0;cameraYMin:0.50;cameraYMax:0.60;cameraXMin:0.35;cameraXMax:0.65;type:camera"  w="1454" h="428"/>
+		<rectangle x="17361" y="591" params="cameraScreenX:0;cameraScreenY:0;cameraYMin:0.50;cameraYMax:0.60;cameraXMin:0.35;cameraXMax:0.65;type:camera"  w="992" h="428"/>
+	</layer>
+</world>

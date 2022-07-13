@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <property id="jumpInitSpeed"       min="0.8" max="2"  snap="0.01" tick="0.1" />
+    <property id="maxSpeedFloor"       min="0" max="20"  snap="0.5"  tick="0.1" />
+    <property id="walkSpeed"           min ="0" max="0.0075"  snap="0.0001"  tick="0.1" />
+    <property id="maxSpeedAirFlipJump" min="8" max="20"  snap="0.5" tick="0.1" />
+    <property id="doubleJumpSpeed"     min="-2" max="-0.8"  snap="0.01" tick="0.1" />
+</data>

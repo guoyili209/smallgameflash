@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<game id="9760" title="rcn_spl_act_punchocalypse" active="true">
+	<id>9760</id>
+	<gameId>rcn_spl_act_punchocalypse</gameId>
+	<displayName>Grudge for Glory</displayName>
+	<dxdPromoText>This is dxd promo text!! Change me!</dxdPromoText>	
+	<gameScreenSize>750x500</gameScreenSize>	<!-- 580x410 or 750x500 or widthxheight -->
+	<width>750</width>
+	<height>500</height>
+	<assetPath></assetPath>
+	<swfUrl>rcn_spl_act_punchocalypse.swf</swfUrl>
+	<genre>act</genre>
+	<bUCompanionAd>bitmaps/promos/234x60/pro_bu_dcom_playgames_234.jpg</bUCompanionAd>
+	<bUCompanionAdLink>http://disney.go.com/fairies</bUCompanionAdLink>
+	<relatedGamesPlaylist>
+		<playlistPanelURL>data/playlists/fairygames_playlist.xml</playlistPanelURL> -->									<!-- local -->
+		<!-- <playlistPanelURL>http://home.disney.go.com/dxd/dynamic/playlist?id=161429</playlistPanelURL>	-->			<!-- live  -->
+	</relatedGamesPlaylist>
+	<pageURL><![CDATA[http://disney.go.com/games/#/games/play/&content=9724]]></pageURL>
+	<reportingIcon>bitmaps/icons/reporting/log_mtx_gam.png</reportingIcon>
+	<reportingAssetName>rcn_spl_act_punchocalypse</reportingAssetName>
+	<omnitureCategory>dgame</omnitureCategory>
+	<omnitureGenre/>
+	<omnitureSiteSection>play:games</omnitureSiteSection>
+	<omnitureSite>dcom</omnitureSite>
+	<omnitureProperty>up</omnitureProperty>
+	<omnitureAccount>disneycom</omnitureAccount>
+	<omnitureContentType>games</omnitureContentType>
+	<omniturePageName>iitb_spl_act_grudgeforglory</omniturePageName>
+	<actionScriptVersion>3</actionScriptVersion>
+	<sendsMetagameMsgs>true</sendsMetagameMsgs>
+	<minigameAPISwf>MinigameAPI_2_2_DEV_ONLY_DO_NOT_PUBLISH.swf</minigameAPISwf>
+</game>

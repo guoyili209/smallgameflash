@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+    <levels>	  
+      <assault>
+        <wave bugtype="1" count="4" gap="5000" reward="null" />
+        <wave bugtype="0" count="4" gap="5000" reward="null" />
+        <wave bugtype="1" count="4" gap="5000" reward="null" />
+      </assault>	  
+      <assault>
+        <wave bugtype="0" count="4" gap="5000" reward="null" />
+        <wave bugtype="2" count="4" gap="5000" reward="null" />
+        <wave bugtype="0" count="4" gap="5000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="0" count="5" gap="4500" reward="null" />
+        <wave bugtype="1" count="4" gap="4500" reward="null" />
+        <wave bugtype="3" count="1" gap="4500" reward="shield" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="5" gap="4000" reward="null" />
+        <wave bugtype="0" count="5" gap="4000" reward="null" />
+        <wave bugtype="1" count="5" gap="4000" reward="null" />
+        <wave bugtype="2" count="7" gap="4000" reward="pickUp" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="5" gap="4000" reward="null" />
+        <wave bugtype="0" count="6" gap="4000" reward="null" />
+        <wave bugtype="1" count="6" gap="4000" reward="null" />
+      </assault>	  
+	  <assault>
+        <wave bugtype="1" count="6" gap="5000" reward="null" />
+        <wave bugtype="0" count="6" gap="5000" reward="null" />
+        <wave bugtype="1" count="6" gap="5000" reward="null" />
+      </assault>	  
+      <assault>
+        <wave bugtype="0" count="6" gap="5000" reward="null" />
+        <wave bugtype="2" count="6" gap="5000" reward="null" />
+        <wave bugtype="0" count="6" gap="5000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="0" count="7" gap="4500" reward="null" />
+        <wave bugtype="1" count="6" gap="4500" reward="null" />
+        <wave bugtype="3" count="3" gap="4500" reward="shield" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="7" gap="4000" reward="null" />
+        <wave bugtype="0" count="7" gap="4000" reward="null" />
+        <wave bugtype="1" count="7" gap="4000" reward="null" />
+        <wave bugtype="2" count="9" gap="4000" reward="pickUp" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="7" gap="4000" reward="null" />
+        <wave bugtype="0" count="8" gap="4000" reward="null" />
+        <wave bugtype="1" count="8" gap="4000" reward="null" />
+      </assault>	  	  
+      <assault>
+        <wave bugtype="0" count="7" gap="3500" reward="null" />
+        <wave bugtype="1" count="8" gap="3500" reward="null" />
+        <wave bugtype="0" count="6" gap="3500" reward="null" />
+        <wave bugtype="2" count="7" gap="4000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="5" gap="4000" reward="null" />
+        <wave bugtype="0" count="4" gap="4000" reward="null" />
+        <wave bugtype="4" count="1" gap="4000" reward="shield" />
+      </assault>
+	   <assault>
+        <wave bugtype="2" count="6" gap="4000" reward="null" />
+        <wave bugtype="1" count="3" gap="4000" reward="null" />
+        <wave bugtype="2" count="6" gap="4000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="0" count="4" gap="5000" reward="null" />
+        <wave bugtype="2" count="4" gap="5000" reward="null" />
+        <wave bugtype="0" count="4" gap="5000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="2" gap="4000" reward="null" />
+        <wave bugtype="0" count="3" gap="4000" reward="null" />
+        <wave bugtype="1" count="4" gap="4000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="5" gap="4000" reward="null" />
+        <wave bugtype="5" count="1" gap="4000" reward="null" />
+        <wave bugtype="1" count="3" gap="4000" reward="null" />
+        <wave bugtype="2" count="7" gap="4000" reward="pickUp" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="3" gap="4000" reward="null" />
+        <wave bugtype="0" count="4" gap="4000" reward="null" />
+        <wave bugtype="1" count="5" gap="4000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="4" count="1" gap="3500" reward="shield" />
+        <wave bugtype="1" count="2" gap="3500" reward="null" />
+        <wave bugtype="0" count="3" gap="3500" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="4" gap="4000" reward="null" />
+        <wave bugtype="0" count="6" gap="4000" reward="null" />
+        <wave bugtype="1" count="8" gap="4000" reward="null" />
+        <wave bugtype="2" count="7" gap="4000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="6" gap="4000" reward="null" />
+        <wave bugtype="0" count="7" gap="4000" reward="null" />
+        <wave bugtype="1" count="8" gap="4000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="7" gap="4000" reward="null" />
+        <wave bugtype="0" count="8" gap="4000" reward="null" />
+        <wave bugtype="1" count="9" gap="4000" reward="null" />
+      </assault>
+	   <assault>
+        <wave bugtype="2" count="10" gap="3500" reward="null" />
+        <wave bugtype="1" count="10" gap="3500" reward="pickup" />
+        <wave bugtype="2" count="10" gap="3500" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="3" count="1" gap="3500" reward="null" />
+        <wave bugtype="4" count="2" gap="3500" reward="null" />
+        <wave bugtype="1" count="15" gap="7000" reward="null" />
+      </assault>	  
+	  <assault>
+        <wave bugtype="4" count="1" gap="3500" reward="null" />
+        <wave bugtype="1" count="4" gap="3500" reward="null" />
+        <wave bugtype="0" count="6" gap="3500" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="10" gap="6000" reward="null" />
+        <wave bugtype="0" count="12" gap="7000" reward="null" />
+        <wave bugtype="1" count="12" gap="7000" reward="null" />
+        <wave bugtype="2" count="12" gap="7000" reward="shield" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="12" gap="7000" reward="null" />
+        <wave bugtype="0" count="12" gap="7000" reward="null" />
+        <wave bugtype="1" count="12" gap="7000" reward="pickUp" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="12" gap="7000" reward="null" />
+        <wave bugtype="0" count="12" gap="7000" reward="null" />
+        <wave bugtype="1" count="12" gap="7000" reward="null" />
+      </assault>
+	   <assault>
+        <wave bugtype="2" count="12" gap="8000" reward="null" />
+		<wave bugtype="4" count="1" gap="5000" reward="null" />
+        <wave bugtype="1" count="12" gap="8000" reward="pickUp" />
+		<wave bugtype="3" count="2" gap="6000" reward="null" />
+        <wave bugtype="2" count="12" gap="8000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="3" count="2" gap="3500" reward="null" />
+        <wave bugtype="4" count="2" gap="3500" reward="null" />
+        <wave bugtype="3" count="2" gap="3500" reward="null" />
+      </assault>	  
+	  <assault>
+        <wave bugtype="1" count="15" gap="7000" reward="null" />
+        <wave bugtype="2" count="15" gap="7000" reward="null" />
+        <wave bugtype="0" count="15" gap="7000" reward="null" />
+      </assault>	
+	  <assault>
+        <wave bugtype="0" count="10" gap="2000" reward="null" />
+        <wave bugtype="0" count="10" gap="2000" reward="null" />
+        <wave bugtype="0" count="10" gap="2000" reward="pickUp" />
+      </assault>	
+	  <assault>
+        <wave bugtype="2" count="10" gap="5000" reward="null" />
+        <wave bugtype="3" count="2" gap="5000" reward="pickUp" />
+        <wave bugtype="2" count="10" gap="5000" reward="null" />
+      </assault>	
+	  <assault>
+        <wave bugtype="5" count="1" gap="5000" reward="null" />
+        <wave bugtype="2" count="15" gap="7000" reward="null" />
+        <wave bugtype="5" count="1" gap="4000" reward="life" />
+      </assault>	
+	  <assault>
+        <wave bugtype="2" count="15" gap="6000" reward="null" />
+        <wave bugtype="3" count="3" gap="7000" reward="null" />
+        <wave bugtype="1" count="15" gap="7000" reward="null" />
+      </assault>	  
+	  <assault>
+        <wave bugtype="1" count="10" gap="6000" reward="null" />
+		<wave bugtype="1" count="10" gap="6000" reward="null" />
+        <wave bugtype="3" count="2" gap="10000" reward="pickUp" />
+        <wave bugtype="2" count="10" gap="6000" reward="null" />
+		<wave bugtype="2" count="10" gap="6000" reward="null" />
+      </assault> 	  
+	  <assault>
+        <wave bugtype="5" count="1" gap="4000" reward="null" />
+        <wave bugtype="4" count="2" gap="6000" reward="null" />
+		<wave bugtype="1" count="10" gap="6000" reward="null" />
+        <wave bugtype="1" count="10" gap="6000" reward="shield" />
+      </assault> 
+	  <assault>
+        <wave bugtype="0" count="5" gap="4500" reward="null" />
+        <wave bugtype="1" count="4" gap="4500" reward="null" />
+        <wave bugtype="3" count="1" gap="4500" reward="shield" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="5" gap="4000" reward="null" />
+        <wave bugtype="0" count="5" gap="4000" reward="null" />
+        <wave bugtype="1" count="5" gap="4000" reward="null" />
+        <wave bugtype="2" count="7" gap="4000" reward="pickUp" />
+      </assault>
+<assault>
+        <wave bugtype="0" count="6" gap="5000" reward="null" />
+        <wave bugtype="2" count="6" gap="5000" reward="shield" />
+        <wave bugtype="0" count="6" gap="5000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="0" count="7" gap="4500" reward="null" />
+        <wave bugtype="1" count="6" gap="4500" reward="null" />
+        <wave bugtype="3" count="2" gap="4500" reward="shield" />
+      </assault>
+<assault>
+        <wave bugtype="0" count="7" gap="3500" reward="null" />
+        <wave bugtype="1" count="8" gap="3500" reward="null" />
+        <wave bugtype="0" count="6" gap="3500" reward="pickUp" />
+        <wave bugtype="2" count="7" gap="4000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="5" gap="4000" reward="null" />
+        <wave bugtype="0" count="4" gap="4000" reward="null" />
+        <wave bugtype="4" count="1" gap="4000" reward="shield" />
+      </assault>
+<assault>
+        <wave bugtype="2" count="6" gap="4000" reward="null" />
+        <wave bugtype="1" count="3" gap="4000" reward="null" />
+        <wave bugtype="2" count="6" gap="4000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="0" count="4" gap="5000" reward="null" />
+        <wave bugtype="2" count="4" gap="5000" reward="null" />
+        <wave bugtype="0" count="4" gap="5000" reward="pickUp" />
+      </assault>
+<assault>
+        <wave bugtype="1" count="3" gap="4000" reward="null" />
+        <wave bugtype="0" count="4" gap="4000" reward="null" />
+        <wave bugtype="1" count="5" gap="4000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="4" count="1" gap="3500" reward="shield" />
+        <wave bugtype="1" count="2" gap="3500" reward="null" />
+        <wave bugtype="0" count="3" gap="3500" reward="null" />
+      </assault>
+<assault>
+        <wave bugtype="1" count="6" gap="4000" reward="null" />
+        <wave bugtype="0" count="7" gap="4000" reward="null" />
+        <wave bugtype="1" count="8" gap="4000" reward="null" />
+      </assault>
+      <assault>
+        <wave bugtype="1" count="7" gap="4000" reward="null" />
+        <wave bugtype="0" count="8" gap="4000" reward="null" />
+        <wave bugtype="1" count="9" gap="4000" reward="null" />
+      </assault>
+<assault>
+        <wave bugtype="3" count="1" gap="3500" reward="null" />
+        <wave bugtype="4" count="2" gap="3500" reward="null" />
+        <wave bugtype="1" count="15" gap="7000" reward="null" />
+      </assault>	  
+	  <assault>
+        <wave bugtype="4" count="1" gap="3500" reward="null" />
+        <wave bugtype="1" count="4" gap="6000" reward="pickUp" />
+        <wave bugtype="0" count="6" gap="3500" reward="null" />
+      </assault>
+<assault>
+        <wave bugtype="3" count="1" gap="7000" reward="null" />
+        <wave bugtype="4" count="1" gap="7000" reward="null" />
+        <wave bugtype="3" count="1" gap="7000" reward="null" />
+      </assault>	  
+	  <assault>
+        <wave bugtype="1" count="10" gap="4000" reward="null" />
+        <wave bugtype="2" count="10" gap="5500" reward="pickUp" />
+        <wave bugtype="0" count="10" gap="5500" reward="null" />
+      </assault>
+<assault>
+        <wave bugtype="2" count="10" gap="5000" reward="null" />
+        <wave bugtype="3" count="2" gap="5000" reward="null" />
+        <wave bugtype="2" count="10" gap="5000" reward="null" />
+      </assault>	
+	  <assault>
+        <wave bugtype="5" count="1" gap="5000" reward="null" />
+        <wave bugtype="2" count="10" gap="4000" reward="null" />
+        <wave bugtype="5" count="1" gap="7000" reward="life" />
+      </assault>	
+	<assault>
+		<wave bugtype="0" count="10" gap="7000" reward="null" />
+		<wave bugtype="1" count="10" gap="8000" reward="null" />
+		<wave bugtype="2" count="10" gap="8000" reward="null" />
+		<wave bugtype="3" count="1" gap="6000" reward="null" />
+        <wave bugtype="4" count="1" gap="9000" reward="shield" />
+        <wave bugtype="0" count="15" gap="9000" reward="null" />
+		<wave bugtype="1" count="15" gap="9000" reward="null" />
+		<wave bugtype="2" count="15" gap="9000" reward="null" />
+		<wave bugtype="3" count="1" gap="8000" reward="null" />
+        <wave bugtype="4" count="1" gap="5000" reward="life" />		
+		<wave bugtype="0" count="15" gap="15000" reward="null" />
+		<wave bugtype="1" count="15" gap="15000" reward="null" />
+		<wave bugtype="2" count="15" gap="15000" reward="null" />
+        <wave bugtype="3" count="1" gap="10000" reward="pickUp" />
+		<wave bugtype="3" count="1" gap="5000" reward="null" />
+		<wave bugtype="3" count="1" gap="5000" reward="null" />
+		<wave bugtype="3" count="1" gap="5000" reward="null" />
+		<wave bugtype="4" count="1" gap="10000" reward="null" />
+		<wave bugtype="4" count="1" gap="3000" reward="null" />
+		<wave bugtype="4" count="1" gap="3000" reward="null" />
+		<wave bugtype="4" count="1" gap="3000" reward="pickUp" />
+      </assault> 
+    </levels>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <!-- LOADING  -->
+    <!-- OBS:: DON'T MOVE THIS 4 LINES-->
+    <text id="TXT_LOADING"><![CDATA[LOADING...]]></text>
+    <text id="TXT_TIP_1_LOADING"><![CDATA[Tip 1]]></text>
+    <text id="TXT_TIP_2_LOADING"><![CDATA[Tip 2]]></text>
+    <text id="TXT_TIP_3_LOADING"><![CDATA[Tip 3]]></text>
+    <text id="TXT_GP_KEY"><![CDATA[C]]></text>
+    <text id="TXT_GP_ATTACK"><![CDATA[PUNCH]]></text>
+    <text id="TXT_GP_CONTINUE"><![CDATA[CONTINUE]]></text>
+    
+    <!-- LOADING  IN GAME-->
+    <text id="TXT_LOADING_IN_GAME"><![CDATA[LOADING...]]></text>
+    <text id="TXT_LOADING_PERCENT"><![CDATA[]]></text>
+    
+    <!-- YES NO -->
+    <text id="TXT_YES"><![CDATA[YES]]></text>
+    <text id="TXT_NO"><![CDATA[NO]]></text>
+
+    <!-- QUIT -->
+    <text id="TXT_QUIT_TITLE"><![CDATA[QUIT?]]></text>
+    
+    <!-- QUIT SCORECARD-->
+    <text id="TXT_QUITSCORECARD_TITLE"><![CDATA[EXIT THE NOMICON?]]></text>
+
+    <!-- GOTO SURVIVAL-->
+    <text id="TXT_GOTOSURVIVAL_TITLE"><![CDATA[GO TO SURVIVAL ROOM?]]></text>
+    
+    <!-- ERASE -->
+    <text id="TXT_ERASE_TITLE"><![CDATA[ERASE DATA?]]></text>
+    
+    <!-- MAIN MENU-->
+    <text id="TXT_MM_PLAY"><![CDATA[PLAY]]></text>
+    <text id="TXT_MM_TITLE"><![CDATA[PUNCHOCALYPSE]]></text>
+    
+    <!-- METAMAP -->
+    <text id="TXT_META_TITLE"><![CDATA[SELECT LEVEL]]></text>
+    <text id="TXT_META_LV_1"><![CDATA[LEVEL 1]]></text>
+    <text id="TXT_META_LV_2"><![CDATA[LEVEL 2]]></text>
+    <text id="TXT_META_LV_3"><![CDATA[LEVEL 3]]></text>
+    <text id="TXT_META_LV_4"><![CDATA[LEVEL 4]]></text>
+    <text id="TXT_META_LV_5"><![CDATA[NINJA<br/>TRAINING]]></text>
+    <text id="TXT_TOOLTIP_TROPH"><![CDATA[TROPHIES]]></text>
+    <text id="TXT_TOOLTIP_ERASE"><![CDATA[ERASE DATA]]></text>
+    <text id="TXT_TOOLTIP_WEB"><![CDATA[NINJANOMICON]]></text>
+    
+    <!-- TROPHIES -->
+    <text id="TXT_TROPH_TITLE"><![CDATA[TROPHIES]]></text>
+    <text id="TXT_TROPH_NAME_1"><![CDATA[Cautious Ninja]]></text>
+    <text id="TXT_TROPH_NAME_2"><![CDATA[Ninja Apprentice]]></text>
+    <text id="TXT_TROPH_NAME_3"><![CDATA[Fire Ninja]]></text>
+    <text id="TXT_TROPH_NAME_4"><![CDATA[Ice Ninja]]></text>
+    <text id="TXT_TROPH_NAME_5"><![CDATA[Monster Slayer]]></text>
+    <text id="TXT_TROPH_NAME_6"><![CDATA[Ninja Master]]></text>
+    <text id="TXT_TROPH_NAME_7"><![CDATA[Skillful]]></text>
+    <text id="TXT_TROPH_NAME_8"><![CDATA[Air Ninja]]></text>
+    <text id="TXT_TROPH_NAME_9"><![CDATA[Electric Ninja]]></text>
+    <text id="TXT_TROPH_NAME_10"><![CDATA[Stinky Bombs]]></text>
+    <text id="TXT_TROPH_NAME_11"><![CDATA[Air Ninja]]></text>
+    <text id="TXT_TROPH_NAME_12"><![CDATA[Ninja Nightmare]]></text>
+    <text id="TXT_TROPH_1"><![CDATA[CAUTIOUS NINJA<br/><br/>Reach your first<br/>checkpoint]]></text>
+    <text id="TXT_TROPH_2"><![CDATA[NINJA APPRENTICE<br/><br/>Eliminate 10 monsters]]></text>
+    <text id="TXT_TROPH_3"><![CDATA[FIRE NINJA<br/><br/>Destroy 5 Ice doors]]></text>
+    <text id="TXT_TROPH_4"><![CDATA[ICE NINJA<br/><br/>Destroy 5 Fire doors]]></text>
+    <text id="TXT_TROPH_5"><![CDATA[MONSTER SLAYER<br/><br/>Eliminate 25 monsters]]></text>
+    <text id="TXT_TROPH_6"><![CDATA[NINJA MASTER<br/><br/>Use all Balls at<br/>least once]]></text>
+    <text id="TXT_TROPH_7"><![CDATA[SKILLFUL<br/><br/>Avoid 20 incoming<br/>obstacles]]></text>
+    <text id="TXT_TROPH_8"><![CDATA[AIR NINJA<br/><br/>Eliminate 10 enemies<br/>with air combos]]></text>
+    <text id="TXT_TROPH_9"><![CDATA[ELECTRIC NINJA<br/><br/>Shock 20 monsters]]></text>
+    <text id="TXT_TROPH_10"><![CDATA[STINKY BOMBS<br/><br/>Choke 20 monsters]]></text>
+    <text id="TXT_TROPH_11"><![CDATA[AIR NINJA<br/><br/>Eliminate 20 enemies<br/>with air combos]]></text>
+    <text id="TXT_TROPH_12"><![CDATA[NINJA NIGHTMARE<br/><br/>Eliminate all enemies<br/>in all levels]]></text>
+    <text id="TXT_TOOLTIP_METAMAP"><![CDATA[LEVEL SELECT]]></text>
+    
+    <!-- CUTSCENE INTRO -->
+    <text id="TXT_CUTSCENE_INFO_1"><![CDATA[ ]]></text>
+    <text id="TXT_CUTSCENE_INFO_2_A"><![CDATA[<br/>Howard: What's the first one?]]></text>
+    <text id="TXT_CUTSCENE_INFO_2_B"><![CDATA[<br/>Randy: The one that says "Name"?]]></text>
+    <text id="TXT_CUTSCENE_INFO_3_A"><![CDATA[<br/>Howard: Yeah, what'd you put for that?]]></text>
+    <text id="TXT_CUTSCENE_INFO_3_B"><![CDATA[<br/>Randy: My name, which is...]]></text>
+    <text id="TXT_CUTSCENE_INFO_4_A"><![CDATA[<br/>Randy: Krakenstein!]]></text>
+    <text id="TXT_CUTSCENE_INFO_4_B"><![CDATA[<br/>Howard: Krakenstein... that's not your name]]></text>
+    <text id="TXT_CUTSCENE_INFO_5_A"><![CDATA[<br/>Howard: Whoaaa]]></text>
+    <text id="TXT_CUTSCENE_INFO_5_B"><![CDATA[<br/>Randy: What the juice? My biffer's just been bro-snatched!<br/>It's ninja time!!]]></text>
+    <text id="TXT_TOOLTIP_NEXT"><![CDATA[NEXT]]></text>
+    <text id="TXT_TOOLTIP_BACK"><![CDATA[BACK]]></text>
+    <text id="TXT_TOOLTIP_SKIP"><![CDATA[SKIP]]></text>
+    
+    <!-- CUTSCENE OUTRO -->
+    <text id="TXT_CUTSCENE_OUT_1"><![CDATA[Randy: ...and that's how I, Randy Cunningham, Ninja of Norrisville saved<br/>my bro-tastic best-migo, Howard. I know, amazing, right? Sometimes I amaze<br/>even myself.]]></text>
+    <text id="TXT_CUTSCENE_OUT_2_A"><![CDATA[Howard: Y'know, you wouldn't have had to Ninja out if I didn't get captured.<br/>So you're welcome.]]></text>
+    <text id="TXT_CUTSCENE_OUT_2_B"><![CDATA[Randy: Thanks, Buddy.]]></text>
+    <text id="TXT_CUTSCENE_OUT_3"><![CDATA[Howard: See, now was that so hard?  It's not always about you.]]></text>
+    <text id="TXT_CUTSCENE_OUT_4_A"><![CDATA[Randy: Hey, wanna play the new Grave Puncher game?]]></text>
+    <text id="TXT_CUTSCENE_OUT_4_B"><![CDATA[Howard: Do you even have to ask?]]></text>
+    <text id="TXT_CUTSCENE_OUT_5_A"><![CDATA[Randy: It's the cheese.  It's about this awesome friend who has to rescue<br/>his lazy best friend from a monster.]]></text>
+    <text id="TXT_CUTSCENE_OUT_5_B"><![CDATA[Howard: Eh, it feels kinda been there, done that.]]></text>
+    
+    <!-- PAUSE -->
+    <text id="TXT_PAUSE_TITLE"><![CDATA[PAUSE]]></text>
+    <text id="TXT_PAUSE_RESUME"><![CDATA[RESUME]]></text>
+    <text id="TXT_PAUSE_METAMAP"><![CDATA[LEVEL SELECT]]></text>
+    <text id="TXT_PAUSE_HELP"><![CDATA[CONTROLS]]></text>
+    <text id="TXT_PAUSE_SOUND"><![CDATA[SOUND]]></text>
+    <text id="TXT_PAUSE_QUIT"><![CDATA[QUIT]]></text>
+    <text id="TXT_PAUSE_INVENTORY"><![CDATA[ARMORY]]></text>
+
+    <!-- POPUP HELP TOOLTIPS -->
+    <text id="TXT_TOOLTIP_HELP_NEXT"><![CDATA[NEXT]]></text>
+    <text id="TXT_TOOLTIP_HELP_BACK"><![CDATA[BACK]]></text>
+    
+    <!-- POPUP HELP 1 -->
+    <text id="TXT_HELP_TITLE"><![CDATA[MOVES]]></text>
+    <text id="TXT_HELP_INFO_A"><![CDATA[]]></text>
+    <text id="TXT_HELP_INFO_B"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_1"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_2"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_3"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_4"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_5"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_6"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_7"><![CDATA[X]]></text>
+    <text id="TXT_HELP_KEY_8"><![CDATA[C]]></text>
+    
+    <!-- POPUP HELP 2 -->
+    <text id="TXT_HELP_TITLE_2"><![CDATA[MANA]]></text>
+    <text id="TXT_HELP_INFO_C"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_9"><![CDATA[SPACE]]></text>
+    <text id="TXT_HELP_KEY_10"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_11"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_12"><![CDATA[X]]></text>
+    <text id="TXT_HELP_KEY_13"><![CDATA[X]]></text>
+    <text id="TXT_HELP_KEY_14"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_15"><![CDATA[V]]></text>
+        
+    <!-- POPUP HELP 3 -->
+    <text id="TXT_HELP_TITLE_3"><![CDATA[JUMP]]></text>
+    <text id="TXT_HELP_INFO_D"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_16"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_17"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_18"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_19"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_20"><![CDATA[]]></text>
+    <text id="TXT_HELP_NOTE_2"><![CDATA[FLIP JUMP<br/>(Requires level 1 Jump Skills)]]></text>
+    <text id="TXT_HELP_NOTE_3"><![CDATA[WALL JUMP<br/>(Requires level 3 Jump Skills)]]></text>
+    <text id="TXT_HELP_NOTE_4"><![CDATA[DOUBLE JUMP<br/>(Requires level 2 Jump Skills)]]></text>
+    
+    <!-- POPUP HELP 4 -->
+    <text id="TXT_HELP_TITLE_4"><![CDATA[SPECIAL MOVES]]></text>
+    <text id="TXT_HELP_INFO_E"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_21"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_22"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_23"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_24"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_25"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_26"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_27"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_28"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_29"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_30"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_31"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_32"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_33"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_34"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_35"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_36"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_37"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_38"><![CDATA[]]></text>
+    <text id="TXT_HELP_KEY_39"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_40"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_41"><![CDATA[C]]></text>
+    <text id="TXT_HELP_KEY_42"><![CDATA[X]]></text>
+    <text id="TXT_HELP_NOTE_5"><![CDATA[AERIAL KNOCKDOWN<br/>(Requires level 1 Specials Skills)]]></text>
+    <text id="TXT_HELP_NOTE_6"><![CDATA[NINJA SCARF<br/>(Requires level 2 Specials Skills)]]></text>
+    <text id="TXT_HELP_NOTE_7"><![CDATA[NINJA NUNCHUCK<br/>(Requires level 3 Specials Skills)]]></text>
+    <text id="TXT_HELP_NOTE_8"><![CDATA[NINJA SWORD<br/>(Requires level 3 Specials Skills))]]></text>
+    <text id="TXT_HELP_NOTE_9"><![CDATA[NINJA UPPERCUT<br/>(Requires level 2 Specials Skills)]]></text>
+    <text id="TXT_HELP_NOTE_10"><![CDATA[TRIPLE RINGS<br/>(Requires level 1 Specials Skills) ]]></text>
+    
+    <!-- TUTORIALS -->    
+    <text id="TXT_TUTO_1_UP"><![CDATA[]]></text>
+    <text id="TXT_TUTO_1_RIGHT"><![CDATA[]]></text>
+    <text id="TXT_TUTO_MSN_3"><![CDATA[X]]></text>
+    <text id="TXT_TUTO_MSN_4"><![CDATA[X]]></text>
+    <text id="TXT_TUTO_MSN_5"><![CDATA[]]></text>
+    <text id="TXT_TUTO_MSN_6"><![CDATA[C]]></text>
+    <text id="TXT_TUTO_MSN_8"><![CDATA["To level up, <br/>a ninja must face <br/>the survival room."]]></text>
+    <text id="TXT_TUTO_MSN_9"><![CDATA[SPACE]]></text>
+    <text id="TXT_TUTO_MSN_9_KEY_1"><![CDATA[]]></text>
+    <text id="TXT_TUTO_MSN_9_KEY_2"><![CDATA[]]></text>
+    <text id="TXT_TUTO_MSN_9"><![CDATA[SPACE]]></text>
+    <text id="TXT_TUTO_MSN_10_KEY_1"><![CDATA[]]></text>
+    <text id="TXT_TUTO_MSN_10_KEY_2"><![CDATA[]]></text>
+    <text id="TXT_TUTO_MSN_11_KEY_1"><![CDATA[]]></text>
+    <text id="TXT_TUTO_MSN_11_KEY_2"><![CDATA[]]></text>
+    <text id="TXT_TUTO_MSN_11_KEY_3"><![CDATA[X]]></text>
+    <text id="TXT_TUTO_MSN_12"><![CDATA[C]]></text>
+    <text id="TXT_TUTO_MSN_13_KEY_1"><![CDATA[]]></text>
+    <text id="TXT_TUTO_MSN_13_KEY_2"><![CDATA[]]></text>
+    
+    <!-- HUD -->
+    <text id="TXT_HUD_LIVES"><![CDATA[x]]></text>
+    <text id="TXT_HUD_WAVES"><![CDATA[WAVES]]></text>
+    <text id="TXT_HUD_WAVES_NUM"><![CDATA[ ]]></text>
+    
+    <!-- INVENTORY -->
+    <text id="TXT_INVENTORY_TITLE"><![CDATA[ARMORY]]></text>
+    <text id="TXT_INVENTORY_INFO_1"><![CDATA[NINJA RINGS<br/>MP COST: NONE<br/>DAMAGE: LOW]]></text>
+    <text id="TXT_INVENTORY_INFO_2"><![CDATA[HOT BALLS<br/>MP COST: HIGH<br/>DAMAGE: HIGH]]></text>
+    <text id="TXT_INVENTORY_INFO_3"><![CDATA[FREEZIN' BALLS<br/>MP COST: LOW<br/>DAMAGE: FREEZES]]></text>
+    <text id="TXT_INVENTORY_INFO_4"><![CDATA[SMOKE BOMB<br/>MP COST: HIGH<br/>DAMAGE: MID+STUN]]></text>
+    <text id="TXT_INVENTORY_INFO_5"><![CDATA[TRIPPIN' BALLS<br/>MP COST: LOW<br/>DAMAGE: LOW]]></text>
+    <text id="TXT_INVENTORY_INFO_6"><![CDATA[ELECTRIC BALLS<br/>MP COST: MID<br/>DAMAGE: HIGH]]></text>
+    <text id="TXT_TOOLTIP_GAME"><![CDATA[NEXT]]></text>
+    <text id="TXT_TOOLTIP_DROP"><![CDATA[BACK]]></text>
+    <text id="TXT_TOOLTIP_WEB"><![CDATA[NINJANOMICON]]></text>
+    
+    <!-- TRY AGAIN-->
+    <text id="TXT_TRY_AGAIN_TITLE"><![CDATA[TRY AGAIN]]></text>
+    <text id="TXT_TOOLTIP_AGAIN"><![CDATA[REPLAY]]></text>
+    <text id="TXT_TOOLTIP_EXIT"><![CDATA[QUIT]]></text>
+    <text id="TXT_TOOLTIP_TRAINING"><![CDATA[TRAINING]]></text>
+    
+    <!-- SCORECARD -->
+    <text id="TXT_SCORECARD_TITLE"><![CDATA[LEVEL COMPLETE]]></text>
+    <text id="TXT_SCORECARD_INFO_1"><![CDATA[LEVEL SCORE:]]></text>
+    <text id="TXT_SCORECARD_INFO_2"><![CDATA[ ]]></text>
+    <text id="TXT_SCORECARD_INFO_3"><![CDATA[NOMI-COINS:]]></text>
+    <text id="TXT_SCORECARD_INFO_4"><![CDATA[ ]]></text>
+    <text id="TXT_SCORECARD_REMEMBER"><![CDATA[LEVEL UP YOUR<br/>SKILLS IN THE<br/>SURVIVAL ROOM!]]></text>
+    <text id="TXT_SCORE_TOOLTIP_AGAIN"><![CDATA[AGAIN]]></text>
+    <text id="TXT_SCORE_TOOLTIP_NEXT"><![CDATA[NEXT]]></text>
+    
+    <!-- END GAME -->
+    <text id="TXT_END_GAME_TITLE"><![CDATA[WIN!]]></text>
+    <text id="TXT_END_GAME_SCORE"><![CDATA[SCORE]]></text>
+    <text id="TXT_END_GAME_SCORE_NUM"><![CDATA[]]></text>
+    <text id="TXT_TOOLTIP_END_MENU"><![CDATA[MENU]]></text>
+    <text id="TXT_TOOLTIP_END_AGAIN"><![CDATA[AGAIN]]></text>
+    
+    <!-- MESSAGE -->
+    <text id="TXT_MESSAGE_WARNING_BOSS"><![CDATA[<br/>INCOMING ENEMIES!]]></text>
+    <text id="TXT_MESSAGE_WARNING_STOP"><![CDATA[<br/>INCOMING ENEMIES!]]></text>
+    <text id="TXT_MESSAGE_PRESS_SPACE_DOODLE"><![CDATA[SPACE]]></text>
+    <text id="TXT_MESSAGE_PRESS_RAGE"><![CDATA[V]]></text>
+    <text id="TXT_MESSAGE_FREEZE_DOODLE"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_WAVES_DESTROYED"><![CDATA[<br/>START OF WAVE #]]></text>
+    <text id="TXT_MESSAGE_START"><![CDATA[<br/>BEGIN]]></text>
+    <text id="TXT_MESSAGE_WARNING"><![CDATA[<br/>SURVIVAL ROOM!]]></text>
+    <text id="TXT_MESSAGE_TRAINING_COMPLETE"><![CDATA[<br/>TRAINING COMPLETED]]></text>
+    <text id="TXT_MESSAGE_LVL_COMPLETE"><![CDATA[<br/>LEVEL COMPLETED]]></text>
+    <text id="TXT_MESSAGE_COMBO_1"><![CDATA[COMBO X]]></text>
+    <text id="TXT_MESSAGE_COMBO_2"><![CDATA[]]></text>
+    <text id="TXT_MESSAGE_COMBO_BONUS_1"><![CDATA[COMBO BONUS]]></text>
+    <text id="TXT_MESSAGE_COMBO_NULL"><![CDATA[]]></text>
+    
+    <!-- LEVEL UP POPUP -->
+    <text id="TXT_LEVEL_UP_TITLE"><![CDATA[Level Up]]></text>
+    <text id="TXT_LEVEL_UP_TITLE_DODGE"><![CDATA[Level Up: Dodge]]></text>
+    <text id="TXT_LEVEL_UP_TITLE_COMBOS"><![CDATA[Level Up: Specials]]></text>
+    <text id="TXT_LEVEL_UP_TITLE_JUMP"><![CDATA[Level Up: Jump]]></text>
+    <text id="TXT_LEVEL_UP_TITLE_FIGHT"><![CDATA[Level Up: Strength]]></text>
+    <text id="TXT_MESSAGE_DODGE_1"><![CDATA[Whoa! My ninja skills are evolving!<br/>Now I can sense where those<br/>flying fireballs are coming from!<br/>This'll come in handy later...]]></text>
+    <text id="TXT_MESSAGE_DODGE_2"><![CDATA[Leveled up my ninja skills again!<br/>I can see those missiles and fireballs<br/>earlier now!]]></text>
+    <text id="TXT_MESSAGE_DODGE_3"><![CDATA[My ninja-skills leveld up again!<br/>Now I can see all incoming<br/>obstacles in slow motion!]]></text>
+
+    <text id="TXT_MESSAGE_JUMP_1"><![CDATA[GAINED JUMP LEVEL 1<br/>New Jump: Flip Jump]]></text>
+    <text id="TXT_MESSAGE_JUMP_2"><![CDATA[GAINED JUMP LEVEL 2<br/>New Jump: Double Jump]]></text>
+    <text id="TXT_MESSAGE_JUMP_3"><![CDATA[GAINED JUMP LEVEL 3<br/>New Jump: Wall Jump]]></text>
+
+    <text id="TXT_MESSAGE_FIGHT_1"><![CDATA[GAINED STRENGTH LEVEL 1<br/>+25% Health]]></text>
+    <text id="TXT_MESSAGE_FIGHT_2"><![CDATA[GAINED STRENGTH LEVEL 2<br/>+25% Damage]]></text>
+    <text id="TXT_MESSAGE_FIGHT_3"><![CDATA[GAINED STRENGTH LEVEL 3<br/>+25% Health<br/>+25% Damage]]></text>
+
+    <text id="TXT_MESSAGE_COMBOS_1_TITLE"><![CDATA[I LEARNED 2 NEW SPECIAL MOVES!]]></text>
+    <text id="TXT_MESSAGE_COMBOS_1_1_SUBTITLE"><![CDATA[TRIPLE RING ATTACK]]></text>
+    <text id="TXT_MESSAGE_COMBOS_1_1__KEY_1"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_1_1_KEY_2"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_1_1_KEY_3"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_1_1_KEY_4"><![CDATA[X]]></text>
+    <text id="TXT_MESSAGE_COMBOS_1_2_SUBTITLE"><![CDATA[AERIAL KNOCKDOWN]]></text>
+    <text id="TXT_MESSAGE_COMBOS_1_2_KEY_1"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_1_2_KEY_2"><![CDATA[]]></text>
+    
+    <text id="TXT_MESSAGE_COMBOS_2_TITLE"><![CDATA[I LEARNED 2 NEW SPECIAL MOVES!]]></text>
+    <text id="TXT_MESSAGE_COMBOS_2_1_SUBTITLE"><![CDATA[NINJA SCARF SLAM]]></text>
+    <text id="TXT_MESSAGE_COMBOS_2_1_KEY_1"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_2_1_KEY_2"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_2_1_KEY_3"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_2_1_KEY_4"><![CDATA[]]></text>
+    <text id="TXT_MESSAGE_COMBOS_2_2_SUBTITLE"><![CDATA[NINJA UPPERCUT]]></text>
+    <text id="TXT_MESSAGE_COMBOS_2_2_KEY_1"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_2_2_KEY_2"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_2_2_KEY_3"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_2_2_KEY_4"><![CDATA[]]></text>
+    
+    <text id="TXT_MESSAGE_COMBOS_3_TITLE"><![CDATA[I LEARNED 2 NEW SPECIAL MOVES!]]></text>
+    <text id="TXT_MESSAGE_COMBOS_3_1_SUBTITLE"><![CDATA[NINJA SWORD]]></text>
+    <text id="TXT_MESSAGE_COMBOS_3_1_KEY_1"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_3_1_KEY_2"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_3_1_KEY_3"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_3_1_KEY_4"><![CDATA[]]></text>
+    <text id="TXT_MESSAGE_COMBOS_3_2_SUBTITLE"><![CDATA[NINJA NUNCHUCK]]></text>
+    <text id="TXT_MESSAGE_COMBOS_3_2_KEY_1"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_3_2_KEY_2"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_3_2_KEY_3"><![CDATA[C]]></text>
+    <text id="TXT_MESSAGE_COMBOS_3_2_KEY_4"><![CDATA[]]></text>
+    <!-- RAGE POPUP -->
+    <text id="TXT_RAGE_FIRE_TITLE"><![CDATA[Fire Rage]]></text>
+    <text id="TXT_RAGE_FIRE"><![CDATA[When your mana bar is full, press and hold "V" <br/>to activate it. <br/><br/>TIP: It makes you invulnerable.]]></text>
+    <text id="TXT_RAGE_COLD_TITLE"><![CDATA[Cold Rage]]></text>
+    <text id="TXT_RAGE_COLD_GET"><![CDATA[You can now also use Cold Rage Mode by<br/>filling your MP bar twice]]></text>
+    <text id="TXT_RAGE_COLD_NOT_GET"><![CDATA[You can also unlock Cold Rage Mode by<br/>completing the Ninja Nomicom Web Activity!]]></text>
+    
+    <!-- GET BOMB POPUP -->
+    <text id="TXT_FIRE_BOMB_TITLE"><![CDATA[HOT BALLS!]]></text>
+    <text id="TXT_FIRE_BOMB_TIP"><![CDATA[Press "X" to use them in battle.<br/><br/>HINT: These balls can also break<br/>Ice Doors.]]></text>
+    
+    <text id="TXT_ICE_BOMB_TITLE"><![CDATA[FREEZIN' BALLS!]]></text>
+    <text id="TXT_ICE_BOMB_TIP"><![CDATA[That's so bruce!<br/><br/>Press and hold SPACEBAR to<br/>pick a different ball.]]></text>
+    
+    <text id="TXT_STAR_BOMB_TITLE"><![CDATA[NINJA RINGS!]]></text>
+    <text id="TXT_STAR_BOMB_TIP"><![CDATA[Whoa! Ninja Rings!<br/>(Remember to switch weapons by<br/>pressing and holding SPACEBAR)]]></text>
+    
+    <text id="TXT_ELECTRIC_BOMB_TITLE"><![CDATA[ELECTRIC BALLS!]]></text>
+    <text id="TXT_ELECTRIC_BOMB_TIP"><![CDATA[Enemies will be shocked by these balls!]]></text>
+    
+    <text id="TXT_PELLET_BOMB_TITLE"><![CDATA[TRIPPIN' BALLS!]]></text>
+    <text id="TXT_PELLET_BOMB_TIP"><![CDATA[Throw them where you want<br/>your enemies to trip.]]></text>
+    
+    <text id="TXT_SMOKE_BOMB_TITLE"><![CDATA[SMOKE BOMB!]]></text>
+    <text id="TXT_SMOKE_BOMB_TIP"><![CDATA[Enemies don't like the smoke!]]></text>
+    
+    <text id="TXT_RAGE_BOMB_TITLE"><![CDATA[FIRE RAGE MODE]]></text>
+    <text id="TXT_RAGE_BOMB_TIP"><![CDATA[When your mana bar is full, press and hold "V" <br/>to activate it. <br/><br/>HINT: Makes you invulnerable.]]></text>
+</data>

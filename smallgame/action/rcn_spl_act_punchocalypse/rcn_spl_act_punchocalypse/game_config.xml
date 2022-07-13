@@ -1,0 +1,15 @@
+<game_config>
+<keys>
+    <keyLeft>37</keyLeft>
+    <keyRigth>39</keyRigth>
+    <keyUp>38</keyUp>
+    <keyDown>40</keyDown>
+    <keyAttack>67</keyAttack>
+    <keyBomb>88</keyBomb>
+    <keyRage>86</keyRage>
+</keys>
+
+  <webActivityEnable>0</webActivityEnable>
+
+<minigameAPISwf>MinigameAPI_2_2_DEV_ONLY_DO_NOT_PUBLISH.swf</minigameAPISwf>
+</game_config>

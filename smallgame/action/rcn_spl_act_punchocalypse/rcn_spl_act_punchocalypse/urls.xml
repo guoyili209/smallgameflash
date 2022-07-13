@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <!-- Main -->
+    <url id="sounds"        type="xml" path="sounds.xml"/>
+    <url id="settings"      type="xml" path="settings.xml"/>
+    <url id="soundsAssets"  type="swf" path="rcn_spl_act_punchocalypse_sounds_1.swf"/>
+    <url id="fonts"         type="swf" path="rcn_spl_act_punchocalypse_fonts.swf"/>
+    <url id="content"       type="swf" path="rcn_spl_act_punchocalypse_content.swf"/>
+    <url id="screens"       type="xml" path="screens/screens.xml"/>
+    <url id="postUrls"      type="xml" path="postUrls.xml"/>
+    <url id="achievements"  type="xml" path="achievements.xml"/>
+    <url id="game_config"   type="xml" path="game_config.xml" />
+    <url id="assets"        type="img" path="assets/assets.xml" pathRelative="assets/" />
+	<url id="dataGeneral"   type="xml" path="general.xml" />
+    <url id="vars"          type="xml" path="debugVars.xml" />
+
+    <!-- Level 1  	  
+    <url id="assetsLevel_1" type="img" path="games/level01/flash.xml" pathRelative="games/images/" />
+    -->
+	<url id="dataWorld_1"   type="xml" path="games/level01/lvl01.xml" />
+
+    <!-- Level 2 
+    <url id="assetsLevel_2" type="img" path="games/level02/flash.xml" pathRelative="games/images/" />
+    -->
+    <url id="dataWorld_2"   type="xml" path="games/level02/lvl02.xml" />
+	
+	<!-- Level 3   
+    <url id="assetsLevel_3" type="img" path="games/level03/flash.xml" pathRelative="games/images/" />
+    -->
+    <url id="dataWorld_3"   type="xml" path="games/level03/lvl03.xml" />
+	
+	<!-- Level 4 
+    <url id="assetsLevel_4" type="img" path="games/level04/flash.xml" pathRelative="games/images/" />
+    -->
+    <url id="dataWorld_4"   type="xml" path="games/level04/lvl04.xml" />
+	
+	<!-- Level 5      
+    <url id="assetsLevel_5" type="img" path="games/level05/flash.xml" pathRelative="games/images/" />
+    -->
+    <url id="dataWorld_5"   type="xml" path="games/level05/lvl05.xml" />
+	
+</data>
