@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config_levels>
+	<levels thumb_url="content/bitmaps/thumbs/" swf_url="content/swfs/" music_url="content/music/">
+		<level title="ep1_title" swf="levels/episode1.swf"
+			music="powerrangers_levelone.mp3" assets="characters/boss_greenman.swf,arenas/arena1.swf"
+			islocked="false" trackingId="power_rangers_samurai_tracking_play"
+			num="1" comingSoonText="Coming Today" printable="AssetPrintable" leaderboardId="power-rangers-samurai-rangers-together-samurai-forever-1-hsb"/>
+		<level title="ep2_title" swf="levels/episode2.swf"
+			music="powerrangers_levelone.mp3" assets="characters/boss_robtish.swf,arenas/arena2.swf"
+			islocked="false" trackingId="power_rangers_samurai_tracking_play"
+			num="2" comingSoonText="Coming Friday 2/11" printable="AssetPrintable" leaderboardId="power-rangers-samurai-rangers-together-samurai-forever-2-hsb"/>
+		<level title="ep3_title" swf="levels/episode3.swf"
+			music="powerrangers_levelone.mp3" assets="characters/boss_armadillo.swf,arenas/arena3.swf"
+			islocked="false" trackingId="power_rangers_samurai_tracking_play"
+			num="3" comingSoonText="Coming Friday 2/18" printable="AssetPrintable" leaderboardId="power-rangers-samurai-rangers-together-samurai-forever-3-hsb"/>
+		<level title="ep4_title" swf="levels/episode4.swf"
+			music="powerrangers_levelone.mp3" assets="characters/boss_birdgirl.swf,arenas/arena4.swf"
+			islocked="false" trackingId="power_rangers_samurai_tracking_play"
+			num="4" comingSoonText="Coming Friday 2/25" printable="AssetPrintable" leaderboardId="power-rangers-samurai-rangers-together-samurai-forever-4-hsb"/>
+		<level title="ep5_title" swf="levels/episode5.swf"
+			music="powerrangers_levelone.mp3" assets="characters/boss_skeletor.swf,arenas/arena5.swf"
+			islocked="false" trackingId="power_rangers_samurai_tracking_play"
+			num="5" comingSoonText="Coming Friday 3/4" printable="AssetPrintable" leaderboardId="power-rangers-samurai-rangers-together-samurai-forever-5-hsb"/>
+		<level title="ep6_title" swf="levels/episode6.swf"
+			music="powerrangers_levelone.mp3" assets="characters/boss_vulpes.swf,arenas/arena6.swf"
+			islocked="false" trackingId="power_rangers_samurai_tracking_play"
+			num="6" comingSoonText="Coming Soon" printable="AssetPrintable" leaderboardId="power-rangers-samurai-rangers-together-samurai-forever-6-hsb"/>
+		<level title="ep7_title" swf="levels/episode7.swf"
+			music="powerrangers_levelone.mp3" assets="characters/boss_arachnitor.swf,arenas/arena7.swf"
+			islocked="false" trackingId="power_rangers_samurai_tracking_play"
+			num="7" comingSoonText="Coming Soon" printable="false" leaderboardId="power-rangers-samurai-rangers-together-samurai-forever-7-hsb"/>
+		<level title="ep8_title" swf="levels/episode8.swf"
+			music="powerrangers_levelone.mp3" assets="characters/boss_tooyain.swf,arenas/arena8.swf"
+			islocked="false" trackingId="power_rangers_samurai_tracking_play"
+			num="8" comingSoonText="Coming Soon" printable="false" leaderboardId="power-rangers-samurai-rangers-together-samurai-forever-8-hsb"/>
+		<level title="ep9_title" swf="levels/episode9.swf"
+			music="powerrangers_levelone.mp3" assets="characters/boss_xandred.swf,characters/boss_scorpionic.swf,arenas/arena9.swf"
+			islocked="false" trackingId="power_rangers_samurai_tracking_play"
+			num="9" comingSoonText="Coming Soon" printable="false" leaderboardId="power-rangers-samurai-rangers-together-samurai-forever-9-hsb"/>
+		<level title="ep10_title" swf="levels/episode10.swf"
+			music="powerrangers_levelone.mp3" assets="characters/boss_steeleto.swf,arenas/arena10.swf"
+			islocked="false" trackingId="power_rangers_samurai_tracking_play"
+			num="10" comingSoonText="Coming Soon" printable="false" leaderboardId="power-rangers-samurai-rangers-together-samurai-forever-10-hsb"/>
+	</levels>
+	<arenaMode islocked="false" trackingId="power_rangers_samurai_tracking_play" comingSoonText="-Coming Friday 3/11-" leaderboardId="power-rangers-samurai-rangers-together-samurai-forever-arena-hsb" />
+</config_levels>

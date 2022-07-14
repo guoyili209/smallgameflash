@@ -1,0 +1,26 @@
+<cutscenes background_url="content/bitmaps/backgrounds/" panel_url="content/bitmaps/panels/">
+	<cutscene id="ep5cs1">
+		<char id="a" ref="dynamic" dyn="selected_char"/>
+		<char id="b" ref="epoxar"/>
+		
+		<cs char="a" pos="l" emote="idle">ep5cs1line1</cs>		
+		<cs char="b" pos="r" emote="idle">ep5cs1line2</cs>
+		<cs char="b" pos="r" emote="idle">ep5cs1line3</cs>
+		<cs char="a" pos="l" emote="idle" speed="3">ep5cs1line4</cs>
+		<!--<cs char="a" pos="l" emote="idle">ep5cs1line6</cs>-->
+    </cutscene>
+	<cutscene id="ep5cs2">
+		<char id="a" ref="dynamic" dyn="selected_char"/>
+		<char id="b" ref="epoxar"/>
+		<cs char="a" pos="l" emote="idle">ep5cs2line1</cs>		
+		<cs char="b" pos="r" emote="idle">ep5cs2line2</cs>
+     </cutscene>
+     <cutscene id="ep5cs3">
+		<char id="a" ref="dynamic" dyn="selected_char"/>
+		<char id="b" ref="epoxar"/>
+		<char id="c" ref="dynamic" dyn="other_char"/>
+		<cs char="a" pos="l" emote="idle">ep5cs3line1</cs>
+		<cs char="c" pos="l" emote="idle">ep5cs3line2</cs>
+		<cs char="b" pos="r" emote="idle">ep5cs3line3</cs>
+	</cutscene>     
+</cutscenes>

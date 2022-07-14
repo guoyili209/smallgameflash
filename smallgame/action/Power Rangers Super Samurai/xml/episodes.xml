@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config_episodes>
+	<episodes swf_url="content/swfs/episodes/" thumb_url="content/bitmaps/thumbs/">
+		<episode id="1"
+			islocked="false" 			
+			titleText="ep1_title"			
+			comingSoonText="coming_today" 
+			comingSoonDate="2/26"
+			printable="AssetPrintable" 
+			trackingId="power_rangers_samurai_tracking_play"
+			leaderboardId="power-rangers-samurai-rangers-2-episode-1-hsb"
+		/>		
+		<episode id="2"
+			islocked="false" 
+			titleText="ep2_title"
+			comingSoonText="coming_soon"
+			comingSoonDate="2/20" 
+			printable="AssetPrintable" 
+			trackingId="power_rangers_samurai_tracking_play"
+			leaderboardId="power-rangers-samurai-rangers-2-episode-2-hsb"
+		/>
+		<episode id="3"					
+			islocked="false" 
+			titleText="ep3_title"			
+			comingSoonText="coming_soon"
+			comingSoonDate="2/24" 
+			printable="AssetPrintable" 
+			trackingId="power_rangers_samurai_tracking_play"
+			leaderboardId="power-rangers-samurai-rangers-2-episode-3-hsb"
+		/>
+		<episode id="4"					
+			islocked="false" 
+			titleText="ep4_title"			
+			comingSoonText="coming_soon"
+			comingSoonDate="5/15" 
+			printable="AssetPrintable" 
+			trackingId="power_rangers_samurai_tracking_play"
+			leaderboardId="power-rangers-samurai-rangers-2-episode-4-hsb"
+		/>
+		<episode id="5"					
+			islocked="false" 
+			titleText="ep5_title"			
+			comingSoonText="coming_soon"
+			comingSoonDate="11/02" 
+			printable="AssetPrintable" 
+			trackingId="power_rangers_samurai_tracking_play"
+			leaderboardId="power-rangers-samurai-rangers-2-episode-5-hsb"
+		/>
+	</episodes>
+</config_episodes>

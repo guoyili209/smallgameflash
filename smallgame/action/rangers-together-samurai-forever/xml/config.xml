@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<adInterruption enabled="false">content/ad_animation/MQ_logo_ani.swf</adInterruption>
+	<introVideo>content/videos/powerrangers_intro.flv</introVideo>
+	<zordVideo>content/videos/powerrangers_transform_zord.flv</zordVideo>
+	<featuredLevel>1</featuredLevel><!-- Which level is displayed first, and gives it a "new!" tag. Set to 0 for none --> 
+	<comingSoonLevel>0</comingSoonLevel><!-- Which level is displayed in the "coming soon" popup after you beat a level. Set 0 for none. -->
+	<gameAssets>content/swfs/characters/gameassets.swf</gameAssets><!-- The URL for the gameAssets SWF that contains ranger animations, etc. -->
+	<gameAudio>content/swfs/audio/audio.swf</gameAudio><!-- The URL for the gameAudio SWF that contains gameplay audio, etc. -->
+	<goldRangerUnlocked>true</goldRangerUnlocked>
+	<redRangerLocked>false</redRangerLocked>
+	<allRangersLocked>false</allRangersLocked>
+	<!-- External plugins to load -->
+	<plugins enabled="true">
+		<plugin id="analytics" enabled="false">plugins/plugin_nick_analytics.swf</plugin>
+		<plugin id="leaderboard" enabled="false">plugins/plugin_nick_leaderboard.swf</plugin>
+		<plugin id="services" enabled="false">plugins/plugin_nick_services.swf</plugin>
+		<plugin id="localization" enabled="false">plugins/plugin_nick_localization.swf</plugin>
+	</plugins>	
+	<!--ServiceLocator url-->
+	<urlNickServiceLocator>common/flash/services/data/services.xml</urlNickServiceLocator>
+	<!-- URL of Nick in-game notification API -->
+	<nickServicesAPIAchievementsURL>games/data/awards/in-game-notifications/nick_services_achievements.swf</nickServicesAPIAchievementsURL>
+	<!-- Used by Universal End Game Screen -->
+	<nickUEGSSettings>
+		<titleText>GAME OVER</titleText>
+		<scoreText>Score</scoreText>
+	</nickUEGSSettings>	
+	<!-- Used by nick services plugin -->
+	<nickServicesSettings>
+		<enableAnalytics method="1" useEncryption="true" id="7934459106328721594">true</enableAnalytics>
+		<enableLogin method="2">true</enableLogin> <!-- method "3" should always be used. -->
+		<enableTracking method="0">true</enableTracking>
+		<enableNickPoints>false</enableNickPoints>
+		<enableAchievements>true</enableAchievements>		
+		<enableClubItems>false</enableClubItems>
+		<enableUniversalEndGameScreen>true</enableUniversalEndGameScreen>	
+		<enableLegacyServiceProxy url="plugins/legacy/nick_legacy_services.swf">true</enableLegacyServiceProxy> <!-- This is still necessary for leaderboards -->
+	</nickServicesSettings>		
+	<!-- Domains this application is intended to run on -->
+	<allowedDomains>
+		<allowedDomain>workinman.com</allowedDomain>
+		<allowedDomain>localhost</allowedDomain>
+		<allowedDomain>nick.com</allowedDomain>
+		<allowedDomain>mtvi.com</allowedDomain>
+		<allowedDomain>mariogames.be</allowedDomain>
+	</allowedDomains>
+	<!-- Used by services plugin -->
+	<tracking>	
+		<tracking_legacy>
+			<trackingPlayFunction>trackKidsGamePlay</trackingPlayFunction>
+			<trackingPlayAgainFunction>trackKidsGamePlay</trackingPlayAgainFunction>
+			<trackingPlayGameName>power-rangers-samurai-rangers-together-samurai-forever</trackingPlayGameName>
+			<trackingPrintFunction>printTracker</trackingPrintFunction>
+			<trackingPrintSite>Nick</trackingPrintSite>
+			<trackingPrintUrlAlias>power-rangers-samurai-rangers-together-samurai-forever</trackingPrintUrlAlias>
+			<trackingPrintContentType>game</trackingPrintContentType>
+			<trackingPrintShowID>hs_pr_samurai</trackingPrintShowID>
+		</tracking_legacy>
+		<tracking_2011>
+			<trackingGameLoad>ON_GAME_LOAD</trackingGameLoad>
+			<trackingGamePlay>ON_GAME_PLAY</trackingGamePlay>
+			<trackingLevelStart>ON_GAME_LEVELSTART</trackingLevelStart>
+		</tracking_2011>
+	</tracking>
+	<!-- Used by leaderboard plugin -->
+	<leaderboard>
+		<gameId id="game">UNUSED_SEE_CONFIG_LEVELSxml</gameId>
+	</leaderboard>
+	<!-- Used by localization plugin -->
+	<localization>
+		<fontFile>fonts/embeddedFonts.swf</fontFile>
+		<fontXml>fonts/fonts.xml</fontXml>
+		<translationXmls>
+			<translationXml id="master">xml/translation.xml</translationXml>
+		</translationXmls>
+	</localization>
+	<file_collections>
+		<collection id="initial">
+			<file id="splash">content/bitmaps/splash.png</file>
+			<file id="megazord">content/swfs/characters/megazord.swf</file>
+			<file id="ui">content/swfs/ui/ui.swf</file>
+		</collection>		
+	</file_collections>
+	<!-- Nick Points -->
+	<nickpoints>
+		<campaign_name>prs-samurai-forever</campaign_name> <!-- Needs custom data -->
+	</nickpoints>
+	<!-- Nick Achievements --> <!-- Needs custom data -->
+	<achievements gameId="power-rangers-samurai-rangers-together-samurai-forever-test" urlBaseIcons="/nick-assets/achievements/images/power-rangers-samurai-rangers-together-samurai-forever/" 
+		urlUIPopup="components/achievement_popup.swf" urlUISummary="components/achievement_summary.swf" popupAlignment="bottom" badgeAssetOffsetX="0" badgeAssetOffsetY="-10">
+		<!-- id is for local use only. You can call it whatever you want. The node value is the actual trigger that will be sent to nick.com services -->				
+		<achievement>
+			<id>GreenMachine</id> <!-- The local reference to be used in the game-->
+			<trigger>GreenMachine</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+			<serverCode>power-rangers-samurai-rangers-together-samurai-forever_20_green</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+			<nickPointEventName>badge-one</nickPointEventName>
+			<title><![CDATA[Green Machine]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Defeat a level with the Green Ranger]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+			<urlIconEnabled>power-rangers-samurai-rangers-together-samurai-forever_20_green.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>power-rangers-samurai-rangers-together-samurai-forever_20_green_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->	
+		</achievement> 
+		<achievement>
+			<id>TrueBlue</id> <!-- The local reference to be used in the game-->
+			<trigger>TrueBlue</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+			<nickPointEventName>badge-two</nickPointEventName>
+			<serverCode>power-rangers-samurai-rangers-together-samurai-forever_20_blue</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+			<title><![CDATA[True Blue]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Defeat a level with the Blue Ranger]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+			<urlIconEnabled>power-rangers-samurai-rangers-together-samurai-forever_20_blue.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>power-rangers-samurai-rangers-together-samurai-forever_20_blue_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->	
+		</achievement> 
+		<achievement>
+			<id>PowerfulPink</id> <!-- The local reference to be used in the game-->
+			<trigger>PowerfulPink</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+			<serverCode>power-rangers-samurai-rangers-together-samurai-forever_20_pink</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+			<nickPointEventName>badge-three</nickPointEventName>
+			<title><![CDATA[Powerful Pink]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Defeat a level with the Pink Ranger]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+			<urlIconEnabled>power-rangers-samurai-rangers-together-samurai-forever_20_pink.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>power-rangers-samurai-rangers-together-samurai-forever_20_pink_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->	
+		</achievement> 
+		<achievement>
+			<id>RighteousRed</id> <!-- The local reference to be used in the game-->
+			<trigger>RighteousRed</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+			<serverCode>power-rangers-samurai-rangers-together-samurai-forever_20_red</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+			<nickPointEventName>badge-four</nickPointEventName>
+			<title><![CDATA[Righteous Red]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Defeat a level with the Red Ranger]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+			<urlIconEnabled>power-rangers-samurai-rangers-together-samurai-forever_20_red.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>power-rangers-samurai-rangers-together-samurai-forever_20_red_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->	
+		</achievement>  
+		<achievement>
+			<id>NeverYieldYellow</id> <!-- The local reference to be used in the game-->
+			<trigger>NeverYieldYellow</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+			<serverCode>power-rangers-samurai-rangers-together-samurai-forever_20_yellow</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+			<nickPointEventName>badge-five</nickPointEventName>
+			<title><![CDATA[Never Yield Yellow]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Defeat a level with the Yellow Ranger]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+			<urlIconEnabled>power-rangers-samurai-rangers-together-samurai-forever_20_yellow.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>power-rangers-samurai-rangers-together-samurai-forever_20_yellow_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->	
+		</achievement> 
+		<achievement>
+			<id>RangersTogether</id> <!-- The local reference to be used in the game-->
+			<trigger>RangersTogether</trigger> <!-- the actual trigger value that is sent to nick.com servers-->
+			<serverCode>power-rangers-samurai-rangers-together-samurai-forever_100_gold</serverCode><!-- This is the code that the server responds with. Needed to verify that a badge has been earned. -->
+			<nickPointEventName>trophy</nickPointEventName>
+			<title><![CDATA[Ranger's Together, Samurai Forever]]></title> <!-- The title of the achievement for in-game display. -->
+			<description><![CDATA[Defeat all levels, plus defeat a level as the Gold Ranger]]></description> <!-- The description of the achievement for in-game display. -->
+			<dataType>Number</dataType> <!-- The type of data  that will be sent with this achievement. Can be either Number or String.  -->
+			<urlIconEnabled>power-rangers-samurai-rangers-together-samurai-forever_100_gold.png</urlIconEnabled> <!-- The URL of this achievement's "earned" icon -->
+			<urlIconDisabled>power-rangers-samurai-rangers-together-samurai-forever_100_gold_grey.png</urlIconDisabled> <!-- The URL of this achievement's "not earned yet" icon -->	
+		</achievement> 
+	</achievements>
+	<DEBUGArenaMonsterToFight>2</DEBUGArenaMonsterToFight>
+</config>

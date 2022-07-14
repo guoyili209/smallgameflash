@@ -1,0 +1,37 @@
+<cutscene_characters images_url="content/bitmaps/portraits/">
+	<char id="redranger" name="name_ranger_red" folder="redranger" idle="idle.png" alwaysload="true"/>
+	<char id="redranger_super" name="name_ranger_red" folder="redranger" idle="idle_super.png" alwaysload="true"/>
+	<char id="redranger_shogun" name="name_ranger_red" folder="redranger" idle="idle_shogun.png" alwaysload="true"/>
+		
+	<char id="blueranger" name="name_ranger_blue" folder="blueranger" idle="idle.png"  alwaysload="true"/>
+	<char id="blueranger_super" name="name_ranger_blue" folder="blueranger" idle="idle_super.png"  alwaysload="true"/>
+	<char id="blueranger_shogun" name="name_ranger_blue" folder="blueranger" idle="idle_shogun.png"  alwaysload="true"/>
+	
+	<char id="greenranger" name="name_ranger_green" folder="greenranger" idle="idle.png"  alwaysload="true"/>
+	<char id="greenranger_super" name="name_ranger_green" folder="greenranger" idle="idle_super.png"  alwaysload="true"/>
+	<char id="greenranger_shogun" name="name_ranger_green" folder="greenranger" idle="idle_shogun.png"  alwaysload="true"/>
+	
+	<char id="yellowranger" name="name_ranger_yellow" folder="yellowranger" idle="idle.png"  alwaysload="true"/>
+	<char id="yellowranger_super" name="name_ranger_yellow" folder="yellowranger" idle="idle_super.png"  alwaysload="true"/>
+	<char id="yellowranger_shogun" name="name_ranger_yellow" folder="yellowranger" idle="idle_shogun.png"  alwaysload="true"/>
+	
+	<char id="pinkranger" name="name_ranger_pink" folder="pinkranger" idle="idle.png"  alwaysload="true"/>
+	<char id="pinkranger_super" name="name_ranger_pink" folder="pinkranger" idle="idle_super.png"  alwaysload="true"/>
+	<char id="pinkranger_shogun" name="name_ranger_pink" folder="pinkranger" idle="idle_shogun.png"  alwaysload="true"/>
+	
+	<char id="goldranger" name="name_ranger_gold" folder="goldranger" idle="idle.png"  alwaysload="true"/>
+	<char id="goldranger_super" name="name_ranger_gold" folder="goldranger" idle="idle_super.png"  alwaysload="true"/>
+	<char id="goldranger_shogun" name="name_ranger_gold" folder="goldranger" idle="idle_shogun.png"  alwaysload="true"/>
+	
+	<char id="redrangerfemale" name="name_ranger_red_female" folder="redrangerfemale" idle="idle.png" alwaysload="true"/>
+	<char id="redrangerfemale_super" name="name_ranger_red_female" folder="redrangerfemale" idle="idle_super.png" alwaysload="true"/>
+	<char id="redrangerfemale_shogun" name="name_ranger_red_female" folder="redrangerfemale" idle="idle_shogun.png" alwaysload="true"/>
+		
+	<char id="negatron" name="name_negatron" folder="negatron" idle="idle.png" offset="d,d" />
+	<char id="switchbeast" name="name_switchbeast" folder="switchbeast" idle="idle.png" offset="d,d" />
+	<char id="despiraino" name="name_despiraino" folder="despiraino" idle="idle.png" offset="d,d" />
+	<char id="crustor" name="name_crustor" folder="crustor" idle="idle.png" offset="d,d" />
+	<char id="epoxar" name="name_epoxar" folder="epoxar" idle="idle.png" offset="d,d" />
+	
+	
+</cutscene_characters>

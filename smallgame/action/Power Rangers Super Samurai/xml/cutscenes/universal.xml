@@ -1,0 +1,8 @@
+<cutscenes background_url="content/bitmaps/backgrounds/" panel_url="content/bitmaps/panels/">
+     <cutscene id="introanim">
+		<cs anim="AssetTransformAnim" />
+     </cutscene>
+     <cutscene id="levelwinanim">
+		<cs anim="AssetOutroAnim" />
+     </cutscene>
+</cutscenes>

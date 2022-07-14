@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's individual tag.-->
+<!-- english, when set to TRUE, ignores all localization data and uses the default text data in the FLA.-->
+<!-- rightToLeft, when set to TRUE, prints the text from right to left instead of left to right -->
+
+<!-- <Node Attributes> -->
+<!-- id is not Optional. It tells flash which text field to change. -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the default size in the FLA.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the default font (specified by defaultFont).-->
+<!-- offsetX is Optional. It allows you to move the text field a certain number of pixels on the X axis. Leave it out or use 0 if you don't want to move the text. -->
+<!-- offsetY is Optional. It allows you to move the text field a certain number of pixels on the Y axis. Leave it out or use 0 if you don't want to move the text.--> 
+
+<strings defaultFont="Latin" english="true" rightToLeft="false">
+	<!--Preloader-->
+	<string id="loading"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Loading]]></string>
+	<!--Basics-->
+	<string id="title"		fontName="Latin"	fontSize="32"	offsetX="0" offsetY="0"><![CDATA[Power Rangers Super Samurai]]></string>	
+	<string id="play"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Play]]></string>
+	<string id="play_again"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Try Again]]></string>	
+	<string id="how_to_play"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[How to Play]]></string>
+	<string id="next"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Next]]></string>
+	<string id="back"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[BACK]]></string>
+	<string id="continue"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Continue]]></string>
+	<string id="close"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[close]]></string>
+	<string id="printable"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Printable]]></string>
+	<string id="lives"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Lives]]></string>
+	
+	<!--Game Buttons-->
+	<string id="menu"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Menu]]></string>
+	<string id="back_to_game"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Back to Game]]></string>
+	<string id="help"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[How to Play]]></string>
+	<string id="sound_on"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Sound On]]></string>
+	<string id="sound_off"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Sound Off]]></string>
+	<string id="resume"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Resume]]></string>
+	<string id="click_anywhere"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[CLICK ANYWHERE TO PLAY]]></string>
+	<!--Quit-->
+	<string id="quit"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Quit]]></string>
+	<string id="quit_confirm_header"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Are you sure you want to quit?]]></string>
+	<string id="yes"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Yes]]></string>
+	<string id="no"			fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[No]]></string>
+	<!--Gameplay-->
+	<string id="level"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Level]]></string>
+	<string id="score"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Score]]></string>	
+	<string id="paused"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Paused]]></string>
+	<string id="level_up"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Level Up]]></string>
+	<string id="game_over"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Game Over]]></string>
+	<string id="help_questionmark"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[?]]></string>
+	<string id="quit_x"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[x]]></string>		
+	<!--Leaderboard-->
+	<string id="you"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[You: ]]></string>
+	<string id="top"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Top]]></string>	
+	<string id="leaderboard"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[High Scores]]></string>
+	<string id="submit_score"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Submit Score]]></string>	
+	<!-- Copy/Body -->	
+	<string id="coming_soon"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[COMING]]></string>
+	<string id="coming_today"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[COMING TODAY]]></string>
+	<string id="help_copy"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[HELP COPY]]></string>
+	<string id="watch"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Watch 'Show Name' on]]></string>
+	<string id="wiped_out" fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Wiped Out!]]></string>
+	<string id="checkpoint_reached" fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Checkpoint Reached!]]></string>
+	<string id="level_up" fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Level Up!]]></string>
+	<string id="normal" fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Normal]]></string>
+	<string id="hard" fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Hard]]></string>
+	<string id="shogun" fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Shogun]]></string>
+	<string id="combo"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Combo]]></string>
+	<string id="complete"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[complete]]></string>
+	<string id="moogers_defeated"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[MOOGERS DEFEATED]]></string>
+	<string id="pickups_collected"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[PICKUPS COLLECTED]]></string>
+	<string id="time_taken"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[TIME TAKEN]]></string>
+	<string id="bonus_score"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[BONUS SCORE]]></string>
+	<string id="total_score"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[TOTAL SCORE]]></string>
+	<string id="hit_spacebar"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[HIT THE SPACEBAR!]]></string>
+	<string id="xp"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[XP]]></string>
+	<string id="victory"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[VICTORY!]]></string>
+	<string id="health" fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[HEALTH]]></string>
+	<string id="progress" fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[PROGRESS]]></string>
+	<string id="zord" fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[ZORD]]></string>
+	<!-- Help -->
+	<string id="help_move"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Use the ARROW KEYS to Move]]></string>
+	<string id="help_attack"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Hit the SPACE BAR to Attack]]></string>
+	<string id="help_power"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Hold the SPACE BAR for a Power Attack]]></string>
+	<string id="help_dash"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Hit SHIFT to Dash]]></string>
+	<string id="help_jump"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Hit UP to Jump]]></string>
+	<string id="help_block"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Hit DOWN to Block]]></string>
+	<string id="help_zord"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[When your POWER is full
+Hit Z to Summon your Zord]]></string>
+	<string id="help_pickup"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Execute COMBOS to build your Power Meter.]]></string>
+	
+	<!-- Stats -->
+	<string id="bonus_health"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[BONUS 
+HEALTH]]></string>
+	<string id="bonus_damage"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[BONUS 
+DAMAGE]]></string>
+	<string id="zord_boost"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[ZORD 
+BOOST]]></string>
+	<string id="super_samurai"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[SUPER 
+SAMURAI]]></string>
+	<string id="shogun_samurai"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[SHOGUN 
+SAMURAI]]></string>
+	
+	<!-- Whats New -->
+	<string id="new_txt"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[NEW!]]></string>
+	<string id="behold_the_shogun"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Behold the shogun]]></string>
+	<string id="behold_the_shogun_body"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Reach level 20 to unlock the ultimate power of Shogun Mode!
+Challenge Yourself with the new Shogun Difficulty!]]></string>
+	<string id="crustor_rises"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Crustor Rises]]></string>
+	<string id="crustor_rises_body"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Defeat the Nighlok Crustor in a deadly new aquatic episode!]]></string>
+	
+	<!-- Level Names -->
+	<string id="ep1_title"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Construction Zone]]></string>
+	<string id="ep2_title"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[The Foundry]]></string>
+	<string id="ep3_title"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[The Great Dam]]></string>
+	<string id="ep4_title"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Barnacle Bay]]></string>
+	<string id="ep5_title"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Subway Melee]]></string>
+	
+	<!-- Character Names -->
+	<string id="name_ranger_red"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Red Ranger]]></string>
+	<string id="name_ranger_blue"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Blue Ranger]]></string>
+	<string id="name_ranger_yellow"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Yellow Ranger]]></string>
+	<string id="name_ranger_green"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Green Ranger]]></string>
+	<string id="name_ranger_pink"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Pink Ranger]]></string>
+	<string id="name_ranger_gold"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Gold Ranger]]></string>
+	<string id="name_ranger_gold"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Red Ranger]]></string>	
+	
+	<string id="name_ranger_red_unmasked"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Jayden]]></string>
+	<string id="name_ranger_blue_unmasked"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Kevin]]></string>
+	<string id="name_ranger_yellow_unmasked"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Emily]]></string>
+	<string id="name_ranger_green_unmasked"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Mike]]></string>
+	<string id="name_ranger_pink_unmasked"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Mia]]></string>
+	<string id="name_ranger_gold_unmasked"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Antonio]]></string>
+	<string id="name_ranger_red_female_unmasked"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Lauren]]></string>	
+		
+	<string id="name_mooger"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[A Mooger]]></string>
+	<string id="name_mystery"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[?????]]></string>
+	<string id="name_negatron"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Negatron]]></string>
+	<string id="name_switchbeast"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Switchbeast]]></string>
+	<string id="name_despiraino"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Despiraino]]></string>
+	<string id="name_crustor"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Crustor]]></string>
+	<string id="name_epoxar"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Epoxar]]></string>
+		
+	<!-- Cutscenes -->
+	<!-- ep1 cs1 Negatron Introduction -->	
+	<string id="ep1cs1line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Samurai Rangers! Why are you here?]]></string>
+	<string id="ep1cs1line2"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[To defeat you!]]></string>
+	<string id="ep1cs1line3"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[I heard you had training wheels until you were ten!]]></string>
+	<string id="ep1cs1line4"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Whoa! Talking smack about people is not cool!]]></string>
+	<string id="ep1cs1line5"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Keep your guard up!]]></string>
+	<string id="ep1cs1line6"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Why don't you chat with my moogers first! We'll talk later.]]></string>
+	<!-- ep1 cs2 Negatron Encounter -->
+	<string id="ep1cs2line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Found you!]]></string>
+	<string id="ep1cs2line2"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Ugh. You guys are so BOOORING!]]></string>
+	<string id="ep1cs2line3"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[We're tired of your tricks.]]></string>
+	<string id="ep1cs2line4"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[I'm only telling the truth. And if the truth hurts... EXCELLENT!]]></string>
+	<!-- ep1 cs1 Negatron Defeated-->
+	<string id="ep1cs3line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[IMPOSSIBLE! Time to take things to the next level!]]></string>
+	
+	<!-- ep2 cs1 Switchbeast Introduction -->
+	<string id="ep2cs1line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Found You!]]></string>
+	<string id="ep2cs1line2"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[I was waiting for you to TURN up!]]></string>
+	<string id="ep2cs1line3"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[I've already SWITCHED your friends into inanimate objects. You're Next!]]></string>
+	<string id="ep2cs1line4"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[I don't think so!]]></string>
+	<string id="ep2cs1line5"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[My Moogers will CHANGE your mind!]]></string>
+	<string id="ep2cs1line6"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[After him!]]></string>
+	<!-- ep2 cs2 Negatron Encounter -->
+	<string id="ep2cs2line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Enough games, Switchbeast.]]></string>
+	<string id="ep2cs2line2"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[I'll SWITCH you into a can of beans!]]></string>
+	<string id="ep2cs2line3"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Let's do this. HIYA!]]></string>
+	<!-- ep2 cs3 Negatron Encounter -->
+	<string id="ep2cs3line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Argh, you're strong. Time to heat things up!]]></string>
+	
+	<!-- ep3 cs1 Despiraino Introduction -->
+	<string id="ep3cs1line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[What a gloomy place.]]></string>
+	<string id="ep3cs1line2"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Your gloomy day has just begun, Rangers.]]></string>
+	<string id="ep3cs1line3"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[I'm gonna make your lives miserable!]]></string>
+	<string id="ep3cs1line4"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[You'll never bum us out, Despiraino.]]></string>
+	<string id="ep3cs1line5"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Moogers! Show them a bad time.]]></string>
+	<!-- ep3 cs2 Despiraino Encounter -->
+	<string id="ep3cs2line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Despiraino! You've given us the cold shoulder long enough.]]></string>
+	<string id="ep3cs2line2"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Time to rain on your parade, Rangers.]]></string>
+	<string id="ep3cs2line3"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Prepare to Despair!]]></string>
+	<!-- ep3 cs3 Despiraino Encounter -->
+	<string id="ep3cs3line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[I've fallen into despair! Time to bring the rain.]]></string>
+	
+	<!-- ep4 cs1 Crustor Introduction -->
+	<string id="ep4cs1line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[I wish I brought my umbrella.]]></string>
+	<string id="ep4cs1line2"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[You'll wish you brought your mommy after I'm done with you!]]></string>
+	<string id="ep4cs1line3"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Crustor!]]></string>
+	<string id="ep4cs1line4"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Water and Fire are both my forte'.]]></string>
+	<string id="ep4cs1line5"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Prepare to be sunk, Rangers!]]></string>
+	<!-- ep4 cs2 Crustor Encounter -->
+	<string id="ep4cs2line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Crustor! Stop running, you overgrown barnacle.]]></string>
+	<string id="ep4cs2line2"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[I'm going to clam you rangers up!]]></string>
+	<string id="ep4cs2line3"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Time to cut off the crust!]]></string>
+	<!-- ep4 cs3 Crustor Encounter -->
+	<string id="ep4cs3line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Why are you all so Bull-Headed? Time to step it up!]]></string>
+	
+	
+	<!-- ep5 cs1 Epoxar Introduction -->
+	<string id="ep5cs1line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Moogers! In an abandoned subway tunnel?]]></string>
+	<string id="ep5cs1line2"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[It's not abandoned anymore, Rangers!]]></string>
+	<string id="ep5cs1line3"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Stick 'em up!]]></string>
+	<string id="ep5cs1line4"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Your train's about to come in, Epoxar.]]></string>
+	<!-- ep5 cs2 Epoxar Encounter -->
+	<string id="ep5cs2line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Nice try Epxoar, but you can't hold us down.]]></string>
+	<string id="ep5cs2line2"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[You won't derail my plans, Rangers!]]></string>
+	
+	<!-- ep5 cs3 Epoxar Encounter -->
+	<string id="ep5cs3line1"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Whatever you say bounces off us...]]></string>
+	<string id="ep5cs3line2"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[And sticks to you!]]></string>
+	<string id="ep5cs3line3"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Nooooo!]]></string>
+	
+	
+</strings>

@@ -1,0 +1,55 @@
+<cutscenes background_url="content/bitmaps/backgrounds/" panel_url="content/bitmaps/panels/">
+	<cutscene id="ep1cs1">
+		<char id="a" ref="dynamic" dyn="selected_char"/>
+		<char id="b" ref="negatron"/>
+		<char id="c" ref="dynamic" dyn="other_char"/>
+		<cs char="b" pos="r" emote="idle">ep1cs1line1</cs>		
+		<cs char="a" pos="l" emote="idle">ep1cs1line2</cs>
+		<cs char="b" pos="r" emote="idle">ep1cs1line3</cs>
+		<cs char="c" pos="l" emote="idle" speed="3">ep1cs1line4</cs>
+		<cs char="a" pos="l" emote="idle" speed="3">ep1cs1line5</cs>	
+		<cs char="b" pos="r" emote="idle">ep1cs1line6</cs>
+    </cutscene>
+	<cutscene id="ep1cs2">
+		<char id="a" ref="dynamic" dyn="selected_char"/>
+		<char id="b" ref="negatron"/>
+		<cs char="a" pos="l" emote="idle">ep1cs2line1</cs>		
+		<cs char="b" pos="r" emote="idle">ep1cs2line2</cs>
+		<cs char="a" pos="l" emote="idle">ep1cs2line3</cs>
+		<cs char="b" pos="r" emote="idle">ep1cs2line4</cs>
+     </cutscene>
+     <cutscene id="ep1cs3">
+		<char id="b" ref="negatron"/>
+		<cs char="b" pos="r" emote="idle">ep1cs3line1</cs>
+	</cutscene>
+     <!--
+     <cutscene id="ep1csx">
+		<char id="a" ref="dynamic" dyn="selected_char"/>
+		<char id="b" ref="dynamic" dyn="other_char"/>
+		<char id="c" ref="firebender" />
+		<char id="m" ref="mooger" />
+		<cs char="a" pos="l" emote="idle">ep1cs1line1</cs>		
+		<cs char="b" pos="r" emote="idle">ep1cs1line2</cs>
+		<cs background="fear.png"/>		
+		<cs char="m" pos="c" emote="idle">ep1cs1line5</cs>
+		<cs background="rage.png" speed="2" wait="false"/>
+		<cs char="c" pos="l" emote="idle" speed="2">ep1cs1line3</cs>
+		<cs char="c" pos="l" emote="excited">ep1cs1line4</cs>
+		<cs char="c" act="exit_r"/>		
+		<cs background="none" />		
+		<cs char="a" pos="r" emote="idle" customname="name_mystery">ep1cs1line6</cs>
+		<cs panel="panel_korra1.png" dur="2" />
+		<cs panel="panel_korra2.png" dur="1" />
+		<cs panel="panel3.png" dur="2" />
+		<cs event="omgtestevent" />
+		<cs anim="AssetAnimTest" />
+		<cs char="m" act="exit_d"/>	
+		<cs char="b" pos="l" emote="idle">ep1cs1line7</cs>	
+	</cutscene>	
+	<cutscene id="ep1cs5">
+		<char id="c" ref="firebender" />		
+		<cs background="fear.png" />		
+		<cs char="m" pos="c" emote="idle">ep1cs1line3</cs>		
+	</cutscene>	
+	-->
+</cutscenes>
