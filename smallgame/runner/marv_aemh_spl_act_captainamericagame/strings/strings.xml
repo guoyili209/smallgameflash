@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<type id="LoadingScreen" desc="Loading string">
+		<string id="Title" desc="Loading" />
+	</type>
+	
+	<type id="MainMenu" desc="Main menu string">
+		<string id="NewGame" desc="New Game" />
+		<string id="Continue" desc="Continue" />
+		<string id="Option" desc="Options" />
+	</type>
+	
+	<type id="LevelSelectorMenu" desc="Level selector menu string">
+		<string id="Title" desc="Choose a Level" />
+		<string id="level1Title" desc="City Rooftops" />
+		<string id="level2Title" desc="Forest" />
+		<string id="level3Title" desc="Hydra HQ" />
+		<string id="level4Title" desc="Inner Sanctum" />
+		<string id="BackBtn" desc="Back" />
+	</type>
+	
+	<type id="OptionPopup" desc="Option popup string">
+		<string id="Option" desc="Options" />
+		<string id="Sound" desc="Sound" />
+		<string id="Music" desc="Music" />
+		<string id="BackButton" desc="Back" />
+	</type>
+	
+	<type id="EraseGamePopup" desc="Erase game popup string">
+		<string id="Title" desc="Warning" />
+		<string id="Content1" desc="Starting a new game will erase your currently saved game!" />
+		<string id="Content2" desc="Start a new game?" />
+		<string id="AcceptButton" desc="Ok" />
+		<string id="DenyButton" desc="Cancel" />
+	</type>
+	
+	<type id="Tutorial" desc="Tutorial string">
+		<string id="Tuto1" desc="Jump" />
+		<string id="Tuto2" desc="Dash" />
+		<string id="Tuto3" desc="Dash Upwards" />
+		<string id="Tuto4" desc="%Dash& into enemies to %destroy& them" />
+		<string id="Tuto5" desc="Hit a %wall or enemy& and you will get %hurt&" />
+		<string id="Tuto6" desc="Get %hurt 3 times& and you will have to %start over&" />
+		<string id="Tuto7" desc="Collect %Assist Orbs& to unleash %The Avengers&" />
+		<string id="Tuto8" desc="Call in an %Avenger&" />
+		<string id="Tuto9" desc="%Keep running to gather Intel& on where the %Red Skull& is headed next" />
+		<string id="Tuto10" desc="Press up %twice& to double jump" />
+		<string id="Tuto11" desc="Once you have %enough intel&, you can %keep playing& in this stage. Try and %beat your highscore.&" />
+		<string id="Tuto12" desc="If you are %defeated& after getting %enough intel&, you will %progress to the next level.&" />
+		<string id="Tuto13" desc="Press down to %roll& to %avoid attacks&" />
+	</type>
+	
+	<type id="HUD" desc="HUD string">
+		<string id="Title" desc="Score" />
+		<string id="IntelTitle" desc="Intel Gathered" />
+		<string id="PopupTitle" desc="Target Reached! *br* Press %N& to Continue" />
+		<string id="SkipTitle" desc="Press %S& to Skip" />
+		<string id="IronmanFeedback" desc="Iron Man!" />
+		<string id="ThorFeedback" desc="Thor!" />
+		<string id="HulkFeedback" desc="Hulk!" />
+	</type>
+	
+	<type id="LoseScreen" desc="Lose screen string">
+		<string id="Title" desc="Defeat" />
+		<string id="Text1" desc="The forces of Evil have triumphed!" />
+		<string id="Text2" desc="Your Score" />
+		<string id="RetryBtn" desc="Retry" />
+		<string id="MainMenuBtn" desc="Main Menu" />
+	</type>
+	
+	<type id="WinScreen" desc="Win screen string">
+		<string id="Title" desc="Victory" />
+		<string id="Text1" desc="Congratulations! You gathered enough Intel to progress to the next level!" />
+		<string id="Text2" desc="Your Score" />
+		<string id="Text3" desc="Highscore" />
+		<string id="NextLevelBtn" desc="Next Level" />
+		<string id="MainMenuBtn" desc="Main Menu" />
+	</type>
+	
+	<type id="FinalWinScreen" desc="Final win screen string">
+		<string id="Title" desc="Victory" />
+		<string id="Text1" desc="Congratulations! You have stopped the Red Skull. The World is safe again... for now!" />
+		<string id="Text2" desc="Your Final Score" />
+		<string id="Text3" desc="Final Highscore" />
+		<string id="MainMenuBtn" desc="Main Menu" />
+	</type>
+</data>

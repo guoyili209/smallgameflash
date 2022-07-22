@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<world_width>1000</world_width>
+	<world_height>600</world_height>
+	<world_offset_x>0</world_offset_x>
+	<world_offset_y>0</world_offset_y>
+	
+	<max_velocity_x>15</max_velocity_x>
+	<max_velocity_y>15</max_velocity_y>
+	
+	<jumpKey>38</jumpKey>
+	<chargeKey>39</chargeKey>
+	<rollKey>40</rollKey>
+	<switchNextLevelKey>78</switchNextLevelKey>
+	<skipAssistAnimKey>83</skipAssistAnimKey>
+	<launchAssistKey>32</launchAssistKey>
+	<pauseKey>80</pauseKey>
+	<acceptMenuKey>13</acceptMenuKey>
+	<denyMenuKey>27</denyMenuKey>
+	<moveUpMenuKey>38</moveUpMenuKey>
+	<moveDownMenuKey>40</moveDownMenuKey>
+	<moveLeftMenuKey>37</moveLeftMenuKey>
+	<moveRightMenuKey>39</moveRightMenuKey>
+</data>
